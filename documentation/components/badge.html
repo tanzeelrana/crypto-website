@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Badge - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a class="active" href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active"><a href="#example">Example</a></li>
+          <li class="fd-toc-entry"><a href="#contextual-variations">Contextual variations</a></li>
+          <li class="fd-toc-entry"><a href="#pill-badges">Pill badges</a></li>
+          <li class="fd-toc-entry"><a href="#links">Links</a></li>
+          <li class="fd-toc-entry">
+            <a href="#front-badges">Front badges</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#examples">Examples</a></li>
+              <li class="fd-toc-entry"><a href="#border-style">Border style</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Badge</h1>
+          <p class="lead font-weight-normal">Documentation and examples for badges, our small count and labeling component.</p>
+        </div>
+
+        <div id="example" class="mb-9">
+          <h2 class="h4">Example <a class="anchorjs-link" href="#example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Badges scale to match the size of the immediate parent element by using relative font sizing and <code class="highlighter-rouge">em</code> units.</p>
+
+          <div class="fd-example">
+            <div class="h1">Example heading <span class="badge badge-secondary">New</span></div>
+            <div class="h2">Example heading <span class="badge badge-secondary">New</span></div>
+            <div class="h3">Example heading <span class="badge badge-secondary">New</span></div>
+            <div class="h4">Example heading <span class="badge badge-secondary">New</span></div>
+            <div class="h5">Example heading <span class="badge badge-secondary">New</span></div>
+            <div class="h6">Example heading <span class="badge badge-secondary">New</span></div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="h1"&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/div&gt;
+              &lt;div class="h2"&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/div&gt;
+              &lt;div class="h3"&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/div&gt;
+              &lt;div class="h4"&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/div&gt;
+              &lt;div class="h5"&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/div&gt;
+              &lt;div class="h6"&gt;Example heading &lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;&lt;/div&gt;
+            </code>
+          </pre>
+
+          <p>Badges can be used as part of links or buttons to provide a counter.</p>
+
+          <div class="fd-example">
+            <button type="button" class="btn btn-primary">
+              Notifications <span class="badge badge-light">4</span>
+            </button>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;button type="button" class="btn btn-primary"&gt;
+                Notifications &lt;span class="badge badge-light"&gt;4&lt;/span&gt;
+              &lt;/button&gt;
+            </code>
+          </pre>
+
+          <p>Note that depending on how they are used, badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Depending on the specific situation, these badges may seem like random additional words or numbers at the end of a sentence, link, or button.</p>
+
+          <p>Unless the context is clear (as with the "Notifications" example, where it is understood that the "4" is the number of notifications), consider including additional context with a visually hidden piece of additional text.</p>
+
+          <div class="fd-example">
+            <button type="button" class="btn btn-primary">
+              Profile <span class="badge badge-light">9</span>
+              <span class="sr-only">unread messages</span>
+            </button>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;button type="button" class="btn btn-primary"&gt;
+                Profile &lt;span class="badge badge-light"&gt;9&lt;/span&gt;
+                &lt;span class="sr-only"&gt;unread messages&lt;/span&gt;
+              &lt;/button&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="contextual-variations" class="mb-9">
+          <h2 class="h4">Contextual variations <a class="anchorjs-link" href="#contextual-variations" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Add any of the below mentioned modifier classes to change the appearance of a badge.</p>
+
+          <div class="fd-example">
+            <span class="badge badge-primary">Primary</span>
+            <span class="badge badge-secondary">Secondary</span>
+            <span class="badge badge-success">Success</span>
+            <span class="badge badge-danger">Danger</span>
+            <span class="badge badge-warning">Warning</span>
+            <span class="badge badge-info">Info</span>
+            <span class="badge badge-light">Light</span>
+            <span class="badge badge-dark">Dark</span>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;span class="badge badge-primary"&gt;Primary&lt;/span&gt;
+              &lt;span class="badge badge-secondary"&gt;Secondary&lt;/span&gt;
+              &lt;span class="badge badge-success"&gt;Success&lt;/span&gt;
+              &lt;span class="badge badge-danger"&gt;Danger&lt;/span&gt;
+              &lt;span class="badge badge-warning"&gt;Warning&lt;/span&gt;
+              &lt;span class="badge badge-info"&gt;Info&lt;/span&gt;
+              &lt;span class="badge badge-light"&gt;Light&lt;/span&gt;
+              &lt;span class="badge badge-dark"&gt;Dark&lt;/span&gt;
+            </code>
+          </pre>
+
+          <div class="fd-callout fd-callout-warning">
+            <h5 id="conveying-meaning-to-assistive-technologies">Conveying meaning to assistive technologies</h5>
+
+            <p>Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the <code class="highlighter-rouge">.sr-only</code> class.</p>
+          </div>
+        </div>
+
+        <div id="pill-badges" class="mb-9">
+          <h2 class="h4">Pill badges <a class="anchorjs-link" href="#pill-badges" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Use the <code class="highlighter-rouge">.badge-pill</code> modifier class to make badges more rounded (with a larger <code class="highlighter-rouge">border-radius</code> and additional horizontal <code class="highlighter-rouge">padding</code>).</p>
+
+          <div class="fd-example">
+            <span class="badge badge-pill badge-primary">Primary</span>
+            <span class="badge badge-pill badge-secondary">Secondary</span>
+            <span class="badge badge-pill badge-success">Success</span>
+            <span class="badge badge-pill badge-danger">Danger</span>
+            <span class="badge badge-pill badge-warning">Warning</span>
+            <span class="badge badge-pill badge-info">Info</span>
+            <span class="badge badge-pill badge-light">Light</span>
+            <span class="badge badge-pill badge-dark">Dark</span>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;span class="badge badge-pill badge-primary"&gt;Primary&lt;/span&gt;
+              &lt;span class="badge badge-pill badge-secondary"&gt;Secondary&lt;/span&gt;
+              &lt;span class="badge badge-pill badge-success"&gt;Success&lt;/span&gt;
+              &lt;span class="badge badge-pill badge-danger"&gt;Danger&lt;/span&gt;
+              &lt;span class="badge badge-pill badge-warning"&gt;Warning&lt;/span&gt;
+              &lt;span class="badge badge-pill badge-info"&gt;Info&lt;/span&gt;
+              &lt;span class="badge badge-pill badge-light"&gt;Light&lt;/span&gt;
+              &lt;span class="badge badge-pill badge-dark"&gt;Dark&lt;/span&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="links" class="mb-9">
+          <h2 class="h4">Links <a class="anchorjs-link" href="#links" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Using the contextual <code class="highlighter-rouge">.badge-*</code> classes on an <code class="highlighter-rouge">&lt;a&gt;</code> element quickly provide <em>actionable</em> badges with hover and focus states.</p>
+
+          <div class="fd-example">
+            <a href="#" class="badge badge-primary">Primary</a>
+            <a href="#" class="badge badge-secondary">Secondary</a>
+            <a href="#" class="badge badge-success">Success</a>
+            <a href="#" class="badge badge-danger">Danger</a>
+            <a href="#" class="badge badge-warning">Warning</a>
+            <a href="#" class="badge badge-info">Info</a>
+            <a href="#" class="badge badge-light">Light</a>
+            <a href="#" class="badge badge-dark">Dark</a>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;a href="#" class="badge badge-primary"&gt;Primary&lt;/a&gt;
+              &lt;a href="#" class="badge badge-secondary"&gt;Secondary&lt;/a&gt;
+              &lt;a href="#" class="badge badge-success"&gt;Success&lt;/a&gt;
+              &lt;a href="#" class="badge badge-danger"&gt;Danger&lt;/a&gt;
+              &lt;a href="#" class="badge badge-warning"&gt;Warning&lt;/a&gt;
+              &lt;a href="#" class="badge badge-info"&gt;Info&lt;/a&gt;
+              &lt;a href="#" class="badge badge-light"&gt;Light&lt;/a&gt;
+              &lt;a href="#" class="badge badge-dark"&gt;Dark&lt;/a&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="front-badges" class="mb-5">
+          <h2 class="h4">Front badges <a class="anchorjs-link" href="#front-badges" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Front also includes square-sized badges for cases like notifications and so on.</p>
+        </div>
+
+        <div id="examples" class="mb-9">
+          <h2 class="h4">Examples <a class="anchorjs-link" href="#examples" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-primary u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-secondary u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-success u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-info u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-warning u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-danger u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-light u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-dark u-badge-pos rounded-circle">2</span>
+            </button>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-primary u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-secondary u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-success u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-info u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-warning u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-danger u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-light u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-dark u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+            </code>
+          </pre>
+
+          <div class="fd-example">
+            <span class="position-relative mx-2">
+              <img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+              <span class="u-badge u-badge-primary u-badge-pos rounded-circle">2</span>
+            </span>
+            <span class="position-relative mx-2">
+              <img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+              <span class="u-badge u-badge-secondary u-badge-pos rounded-circle">2</span>
+            </span>
+            <span class="position-relative mx-2">
+              <img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+              <span class="u-badge u-badge-success u-badge-pos rounded-circle">2</span>
+            </span>
+            <span class="position-relative mx-2">
+              <img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+              <span class="u-badge u-badge-info u-badge-pos rounded-circle">2</span>
+            </span>
+            <span class="position-relative mx-2">
+              <img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+              <span class="u-badge u-badge-warning u-badge-pos rounded-circle">2</span>
+            </span>
+            <span class="position-relative mx-2">
+              <img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+              <span class="u-badge u-badge-danger u-badge-pos rounded-circle">2</span>
+            </span>
+            <span class="position-relative mx-2">
+              <img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+              <span class="u-badge u-badge-light u-badge-pos rounded-circle">2</span>
+            </span>
+            <span class="position-relative mx-2">
+              <img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+              <span class="u-badge u-badge-dark u-badge-pos rounded-circle">2</span>
+            </span>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;span class="position-relative mx-2"&gt;
+                &lt;img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description"&gt;
+                &lt;span class="u-badge u-badge-primary u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span class="position-relative mx-2"&gt;
+                &lt;img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description"&gt;
+                &lt;span class="u-badge u-badge-secondary u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span class="position-relative mx-2"&gt;
+                &lt;img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description"&gt;
+                &lt;span class="u-badge u-badge-success u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span class="position-relative mx-2"&gt;
+                &lt;img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description"&gt;
+                &lt;span class="u-badge u-badge-info u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span class="position-relative mx-2"&gt;
+                &lt;img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description"&gt;
+                &lt;span class="u-badge u-badge-warning u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span class="position-relative mx-2"&gt;
+                &lt;img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description"&gt;
+                &lt;span class="u-badge u-badge-danger u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span class="position-relative mx-2"&gt;
+                &lt;img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description"&gt;
+                &lt;span class="u-badge u-badge-light u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span class="position-relative mx-2"&gt;
+                &lt;img class="u-sm-avatar" src="../../assets/img/100x100/img1.jpg" alt="Image Description"&gt;
+                &lt;span class="u-badge u-badge-dark u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/span&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="border-style" class="mb-9">
+          <h2 class="h4">Border Style <a class="anchorjs-link" href="#border-style" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example bg-primary">
+            <button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-border-primary u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-border-secondary u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-border-success u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-border-info u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-border-warning u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-border-danger u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-border-light u-badge-pos rounded-circle">2</span>
+            </button>
+            <button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button">
+              <span class="fa fa-shopping-cart u-btn--icon__inner"></span>
+              <span class="u-badge u-badge-border-dark u-badge-pos rounded-circle">2</span>
+            </button>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-border-primary u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-border-secondary u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-border-success u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-border-info u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-border-warning u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-border-danger u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-border-light u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;button class="btn btn-xs u-btn--icon u-btn-text-dark mx-2" type="button"&gt;
+                &lt;span class="fa fa-shopping-cart u-btn--icon__inner"&gt;&lt;/span&gt;
+                &lt;span class="u-badge u-badge-border-dark u-badge-pos rounded-circle"&gt;2&lt;/span&gt;
+              &lt;/button&gt;
+            </code>
+          </pre>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

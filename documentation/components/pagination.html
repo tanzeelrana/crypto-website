@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Pagination - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a class="active" href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active"><a href="#overview">Overview</a></li>
+          <li class="fd-toc-entry"><a href="#working-with-icons">Working with icons</a></li>
+          <li class="fd-toc-entry"><a href="#disabled-and-active-states">Disabled and active states</a></li>
+          <li class="fd-toc-entry"><a href="#sizing">Sizing</a></li>
+          <li class="fd-toc-entry"><a href="#alignment">Alignment</a></li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Pagination</h1>
+          <p class="lead font-weight-normal">Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.</p>
+        </div>
+
+        <div id="overview" class="mb-9">
+          <h2 class="h4">Overview <a class="anchorjs-link" href="#overview" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Use a wrapping <code class="highlighter-rouge">&lt;nav&gt;</code> element to identify it as a navigation section to screen readers and other assistive technologies.</p>
+
+          <p>In addition, as pages likely have more than one such navigation section, it's advisable to provide a descriptive <code class="highlighter-rouge">aria-label</code> for the <code class="highlighter-rouge">&lt;nav&gt;</code> to reflect its purpose. For example, if the pagination component is used to navigate between a set of search results, an appropriate label could be <code class="highlighter-rouge">aria-label="Search results pages"</code>.</p>
+
+          <div class="fd-example">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav aria-label="Page navigation example"&gt;
+                &lt;ul class="pagination"&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="working-with-icons" class="mb-9">
+          <h2 class="h4">Working with icons <a class="anchorjs-link" href="#working-with-icons" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with <code class="highlighter-rouge">aria</code> attributes and the <code class="highlighter-rouge">.sr-only</code> utility.</p>
+
+          <div class="fd-example">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav aria-label="Page navigation example"&gt;
+                &lt;ul class="pagination"&gt;
+                  &lt;li class="page-item"&gt;
+                    &lt;a class="page-link" href="#" aria-label="Previous"&gt;
+                      &lt;span aria-hidden="true"&gt;&laquo;&lt;/span&gt;
+                      &lt;span class="sr-only"&gt;Previous&lt;/span&gt;
+                    &lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;
+                    &lt;a class="page-link" href="#" aria-label="Next"&gt;
+                      &lt;span aria-hidden="true"&gt;&raquo;&lt;/span&gt;
+                      &lt;span class="sr-only"&gt;Next&lt;/span&gt;
+                    &lt;/a&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="disabled-and-active-states" class="mb-9">
+          <h2 class="h4">Disabled and active states <a class="anchorjs-link" href="#disabled-and-active-states" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Pagination links are customizable for different circumstances. Use <code class="highlighter-rouge">.disabled</code> for links that appear un-clickable and <code class="highlighter-rouge">.active</code> to indicate the current page.</p>
+
+          <p>While the <code class="highlighter-rouge">.disabled</code> class uses <code class="highlighter-rouge">pointer-events: none</code> to <em>try</em> to disable the link functionality of <code class="highlighter-rouge">&lt;a&gt;</code>s, that CSS property is not yet standardized and doesn't account for keyboard navigation. As such, you should always add <code class="highlighter-rouge">tabindex="-1"</code> on disabled links and use custom JavaScript to fully disable their functionality.</p>
+
+          <div class="fd-example">
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav aria-label="..."&gt;
+                &lt;ul class="pagination"&gt;
+                  &lt;li class="page-item disabled"&gt;
+                    &lt;a class="page-link" href="#" tabindex="-1"&gt;Previous&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item active"&gt;
+                    &lt;a class="page-link" href="#"&gt;2 &lt;span class="sr-only"&gt;(current)&lt;/span&gt;&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;
+                    &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+
+          <p>You can optionally swap out active or disabled anchors for <code class="highlighter-rouge">&lt;span&gt;</code>, or omit the anchor in the case of the prev/next arrows, to remove click functionality and prevent keyboard focus while retaining intended styles.</p>
+
+          <div class="fd-example">
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item disabled">
+                  <span class="page-link">Previous</span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active">
+                  <span class="page-link">
+                    2
+                    <span class="sr-only">(current)</span>
+                  </span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav aria-label="..."&gt;
+                &lt;ul class="pagination"&gt;
+                  &lt;li class="page-item disabled"&gt;
+                    &lt;span class="page-link"&gt;Previous&lt;/span&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item active"&gt;
+                    &lt;span class="page-link"&gt;
+                      2
+                      &lt;span class="sr-only"&gt;(current)&lt;/span&gt;
+                    &lt;/span&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;
+                    &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="sizing" class="mb-9">
+          <h2 class="h4">Sizing <a class="anchorjs-link" href="#sizing" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Fancy larger or smaller pagination? Add <code class="highlighter-rouge">.pagination-lg</code> or <code class="highlighter-rouge">.pagination-sm</code> for additional sizes.</p>
+
+          <div class="fd-example">
+            <nav aria-label="...">
+              <ul class="pagination pagination-lg">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav aria-label="..."&gt;
+                &lt;ul class="pagination pagination-lg"&gt;
+                  &lt;li class="page-item disabled"&gt;
+                    &lt;a class="page-link" href="#" tabindex="-1"&gt;1&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+
+          <div class="fd-example">
+            <nav aria-label="...">
+              <ul class="pagination pagination-sm">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav aria-label="..."&gt;
+                &lt;ul class="pagination pagination-sm"&gt;
+                  &lt;li class="page-item disabled"&gt;
+                    &lt;a class="page-link" href="#" tabindex="-1"&gt;1&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="alignment" class="mb-9">
+          <h2 class="h4">Alignment <a class="anchorjs-link" href="#alignment" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Change the alignment of pagination components with <a href="http://getbootstrap.com/docs/4.1/utilities/flex/">flexbox utilities</a>.</p>
+
+          <div class="fd-example">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav aria-label="Page navigation example"&gt;
+                &lt;ul class="pagination justify-content-center"&gt;
+                  &lt;li class="page-item disabled"&gt;
+                    &lt;a class="page-link" href="#" tabindex="-1"&gt;Previous&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;
+                    &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+
+          <div class="fd-example">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav aria-label="Page navigation example"&gt;
+                &lt;ul class="pagination justify-content-end"&gt;
+                  &lt;li class="page-item disabled"&gt;
+                    &lt;a class="page-link" href="#" tabindex="-1"&gt;Previous&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;&lt;a class="page-link" href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+                  &lt;li class="page-item"&gt;
+                    &lt;a class="page-link" href="#"&gt;Next&lt;/a&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

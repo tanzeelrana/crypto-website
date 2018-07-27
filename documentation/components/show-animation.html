@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Show Animation - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a class="active" href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active"><a href="#how-to-use">How to use?</a></li>
+          <li class="fd-toc-entry"><a href="#basic-example">Basic example</a></li>
+          <li class="fd-toc-entry">
+            <a href="#js-behavior">JavaScript behavior</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#attributes">Attributes</a></li>
+              <li class="fd-toc-entry"><a href="#callbacks">Callbacks</a></li>
+              <li class="fd-toc-entry"><a href="#methods">Methods</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Show Animation</h1>
+          <p class="lead font-weight-normal">A plugin to make boring show/hide blocks elegant with opening/closing animation effects.</p>
+        </div>
+
+        <div id="how-to-use" class="mb-9">
+          <p>Copy-paste the stylesheet <code class="highlighter-rouge">&lt;link&gt;</code> into your <code class="highlighter-rouge">&lt;head&gt;</code> to load the CSS.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/animate.css"&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Front</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/js/components/hs.show-animation.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of show animations
+                  $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="basic-example" class="mb-9">
+          <h2 class="h4">Basic example <a class="anchorjs-link" href="#basic-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="btn-group btn-group-toggle">
+              <a class="js-animation-link btn btn-outline-secondary u-btn-wide--sm active" href="javascript:;"
+                 data-target="#firstContent"
+                 data-link-group="groups"
+                 data-animation-in="slideInUp">
+               First content</a>
+              <a class="js-animation-link btn btn-outline-secondary u-btn-wide--sm" href="javascript:;"
+                 data-target="#secondContent"
+                 data-link-group="groups"
+                 data-animation-in="slideInUp">
+                Second content</a>
+              <a class="js-animation-link btn btn-outline-secondary u-btn-wide--sm" href="javascript:;"
+                 data-target="#thirdContent"
+                 data-link-group="groups"
+                 data-animation-in="slideInUp">
+                Third content</a>
+            </div>
+
+            <div id="firstContent" class="py-5" data-target-group="groups">
+              <h2>First content</h2>
+              <p>This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is key.</p>
+            </div>
+
+            <div id="secondContent" class="py-5" data-target-group="groups" style="display: none; opacity: 0;">
+              <h2>Second content</h2>
+              <p>Now that we've aligned the details, it's time to get things mapped out and organized. This part is really crucial in keeping the project in line to completion.</p>
+            </div>
+
+            <div id="thirdContent" class="py-5" data-target-group="groups" style="display: none; opacity: 0;">
+              <h2>Third content</h2>
+              <p>The time has come to bring those ideas and plans to life. This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="btn-group btn-group-toggle"&gt;
+                &lt;a class="js-animation-link btn btn-outline-secondary u-btn-wide--sm active" href="javascript:;"
+                   data-target="#firstContent"
+                   data-link-group="groups"
+                   data-animation-in="slideInUp"&gt;
+                 First content&lt;/a&gt;
+                &lt;a class="js-animation-link btn btn-outline-secondary u-btn-wide--sm" href="javascript:;"
+                   data-target="#secondContent"
+                   data-link-group="groups"
+                   data-animation-in="slideInUp"&gt;
+                  Second content&lt;/a&gt;
+                &lt;a class="js-animation-link btn btn-outline-secondary u-btn-wide--sm" href="javascript:;"
+                   data-target="#thirdContent"
+                   data-link-group="groups"
+                   data-animation-in="slideInUp"&gt;
+                  Third content&lt;/a&gt;
+              &lt;/div&gt;
+
+              &lt;div id="firstContent" class="py-5" data-target-group="groups"&gt;
+                &lt;h2&gt;First content&lt;/h2&gt;
+                &lt;p&gt;This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is key.&lt;/p&gt;
+              &lt;/div&gt;
+
+              &lt;div id="secondContent" class="py-5" data-target-group="groups" style="display: none; opacity: 0;"&gt;
+                &lt;h2&gt;Second content&lt;/h2&gt;
+                &lt;p&gt;Now that we've aligned the details, it's time to get things mapped out and organized. This part is really crucial in keeping the project in line to completion.&lt;/p&gt;
+              &lt;/div&gt;
+
+              &lt;div id="thirdContent" class="py-5" data-target-group="groups" style="display: none; opacity: 0;"&gt;
+                &lt;h2&gt;Third content&lt;/h2&gt;
+                &lt;p&gt;The time has come to bring those ideas and plans to life. This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.&lt;/p&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="js-behavior" class="mb-4">
+          <h2 class="h4">JavaScript behavior <a class="anchorjs-link" href="#js-behavior" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="attributes" class="mb-9">
+          <h2 class="h4">Attributes <a class="anchorjs-link" href="#attributes" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <pre>
+            <code class="language-js" data-lang="js">
+              data-link-group="groupName" - string
+              data-target="#ID" - string
+              data-target-group="groupName" - string
+              data-animation-in="fadeIn" - string
+            </code>
+          </pre>
+        </div>
+
+        <div id="callbacks" class="mb-9">
+          <h2 class="h4">Callbacks <a class="anchorjs-link" href="#callbacks" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <pre>
+            <code class="language-js" data-lang="js">
+              afterShow: function() {} - function
+            </code>
+          </pre>
+        </div>
+
+        <div id="methods" class="mb-9">
+          <h2 class="h4">Methods <a class="anchorjs-link" href="#methods" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-link-group=""</code>.</p>
+
+          <div class="fd-example">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 25%;">JavaScript function</th>
+                  <th>Description</th>
+                  <th>Default value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-link-group</code></p>
+                  </td>
+                  <td>Determines which selectors belong to the same group. This definition is necessary, since the selectors can be in different parent blocks, without this it would be impossible to remove/add the necessary classes to selectors based only on the parent.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-target</code></p>
+                  </td>
+                  <td>Defines the block ID to be displayed.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-target-group</code></p>
+                  </td>
+                  <td>Determines which blocks belong to the same group. This definition is necessary, since blocks can be located in different parent blocks, otherwise it would be impossible to show/hide the necessary blocks based solely on the parent.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-animation-in</code></p>
+                  </td>
+                  <td>Revealing effect. Script does not work without <a href="https://daneden.github.io/animate.css/">animate.css</a> All available animation classes can be found in the site.</td>
+                  <td>no</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">afterShow: function () {}</code></p>
+                  </td>
+                  <td>This function executes the code, inside the body of the function, every time the block appears.</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../../assets/js/components/hs.show-animation.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of show animations
+      $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

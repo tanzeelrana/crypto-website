@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Input Group - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a class="active" href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active"><a href="#basic-example">Basic example</a></li>
+          <li class="fd-toc-entry"><a href="#sizing">Sizing</a></li>
+          <li class="fd-toc-entry"><a href="#checkboxes-and-radios">Checkboxes and radios</a></li>
+          <li class="fd-toc-entry"><a href="#multiple-inputs">Multiple inputs</a></li>
+          <li class="fd-toc-entry"><a href="#multiple-addons">Multiple addons</a></li>
+          <li class="fd-toc-entry"><a href="#button-addons">Button addons</a></li>
+          <li class="fd-toc-entry"><a href="#buttons-with-dropdowns">Buttons with dropdowns</a></li>
+          <li class="fd-toc-entry"><a href="#segmented-buttons">Segmented buttons</a></li>
+          <li class="fd-toc-entry">
+            <a href="#custom-forms">Custom forms</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#custom-select">Custom select</a></li>
+              <li class="fd-toc-entry"><a href="#custom-file-input">Custom file input</a></li>
+            </ul>
+          </li>
+          <li class="fd-toc-entry"><a href="#front-form-groups">Front form groups</a></li>
+          <li class="fd-toc-entry"><a href="#accessibility">Accessibility</a></li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Input Group</h1>
+          <p class="lead font-weight-normal">Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.</p>
+        </div>
+
+        <div id="basic-example" class="mb-9">
+          <h2 class="h4">Basic example <a class="anchorjs-link" href="#basic-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Place one add-on or button on either side of an input. You may also place one on both sides of an input. Remember to place <code class="highlighter-rouge">&lt;label&gt;</code>s outside the input group.</p>
+
+          <div class="fd-example">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+              </div>
+            </div>
+
+            <label for="basic-url">Your vanity URL</label>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+              </div>
+              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" />
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+              </div>
+              <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" />
+              <div class="input-group-append">
+                <span class="input-group-text">.00</span>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">With textarea</span>
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text" id="basic-addon1"&gt;@&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" /&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;span class="input-group-text" id="basic-addon2"&gt;@example.com&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;label for="basic-url"&gt;Your vanity URL&lt;/label&gt;
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text" id="basic-addon3"&gt;https://example.com/users/&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text"&gt;$&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" /&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;span class="input-group-text"&gt;.00&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text"&gt;With textarea&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;textarea class="form-control" aria-label="With textarea"&gt;&lt;/textarea&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="sizing" class="mb-9">
+          <h2 class="h4">Sizing <a class="anchorjs-link" href="#sizing" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Add the relative form sizing classes to the <code class="highlighter-rouge">.input-group</code> itself and contents within will automatically resize—no need for repeating the form control size classes on each element.</p>
+
+          <p><strong class="text-dark">Sizing on the individual input group elements isn't supported.</strong></p>
+
+          <div class="fd-example">
+            <div class="input-group input-group-sm mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+              </div>
+              <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+              </div>
+              <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" />
+            </div>
+
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+              </div>
+              <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" />
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group input-group-sm mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text" id="inputGroup-sizing-sm"&gt;Small&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text" id="inputGroup-sizing-default"&gt;Default&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group input-group-lg"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text" id="inputGroup-sizing-lg"&gt;Large&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" /&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="checkboxes-and-radios" class="mb-9">
+          <h2 class="h4">Checkboxes and radios <a class="anchorjs-link" href="#checkboxes-and-radios" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Place any checkbox or radio option within an input group's addon instead of text.</p>
+
+          <div class="fd-example">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input type="checkbox" aria-label="Checkbox for following text input" />
+                </div>
+              </div>
+              <input type="text" class="form-control" aria-label="Text input with checkbox" />
+            </div>
+
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                <input type="radio" aria-label="Radio button for following text input" />
+                </div>
+              </div>
+              <input type="text" class="form-control" aria-label="Text input with radio button" />
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;div class="input-group-text"&gt;
+                    &lt;input type="checkbox" aria-label="Checkbox for following text input" /&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Text input with checkbox" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;div class="input-group-text"&gt;
+                  &lt;input type="radio" aria-label="Radio button for following text input" /&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Text input with radio button" /&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="multiple-inputs" class="mb-9">
+          <h2 class="h4">Multiple inputs <a class="anchorjs-link" href="#multiple-inputs" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>While multiple <code class="highlighter-rouge">&lt;input&gt;</code>s are supported visually, validation styles are only available for input groups with a single <code class="highlighter-rouge">&lt;input&gt;</code>.</p>
+
+          <div class="fd-example">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">First and last name</span>
+              </div>
+              <input type="text" class="form-control" />
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text"&gt;First and last name&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" /&gt;
+                &lt;input type="text" class="form-control" /&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="multiple-addons" class="mb-9">
+          <h2 class="h4">Multiple addons <a class="anchorjs-link" href="#multiple-addons" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Multiple add-ons are supported and can be mixed with checkbox and radio input versions.</p>
+
+          <div class="fd-example">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+              </div>
+              <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" />
+            </div>
+
+            <div class="input-group">
+              <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" />
+              <div class="input-group-append">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text"&gt;$&lt;/span&gt;
+                  &lt;span class="input-group-text"&gt;0.00&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group"&gt;
+                &lt;input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" /&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;span class="input-group-text"&gt;$&lt;/span&gt;
+                  &lt;span class="input-group-text"&gt;0.00&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="button-addons" class="mb-9">
+          <h2 class="h4">Button addons <a class="anchorjs-link" href="#button-addons" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+              </div>
+              <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" />
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+              </div>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+              </div>
+              <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" />
+            </div>
+
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" /&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group"&gt;
+                &lt;input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" /&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="buttons-with-dropdowns" class="mb-9">
+          <h2 class="h4">Buttons with dropdowns <a class="anchorjs-link" href="#buttons-with-dropdowns" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+              <input type="text" class="form-control" aria-label="Text input with dropdown button" />
+            </div>
+
+            <div class="input-group">
+              <input type="text" class="form-control" aria-label="Text input with dropdown button" />
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;Dropdown&lt;/button&gt;
+                  &lt;div class="dropdown-menu"&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;
+                    &lt;div role="separator" class="dropdown-divider"&gt;&lt;/div&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Separated link&lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Text input with dropdown button" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group"&gt;
+                &lt;input type="text" class="form-control" aria-label="Text input with dropdown button" /&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;Dropdown&lt;/button&gt;
+                  &lt;div class="dropdown-menu"&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;
+                    &lt;div role="separator" class="dropdown-divider"&gt;&lt;/div&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Separated link&lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="segmented-buttons" class="mb-9">
+          <h2 class="h4">Segmented buttons <a class="anchorjs-link" href="#segmented-buttons" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button type="button" class="btn btn-outline-secondary">Action</button>
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+              <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" />
+            </div>
+
+            <div class="input-group">
+              <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" />
+              <div class="input-group-append">
+                <button type="button" class="btn btn-outline-secondary">Action</button>
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;button type="button" class="btn btn-outline-secondary"&gt;Action&lt;/button&gt;
+                  &lt;button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+                    &lt;span class="sr-only"&gt;Toggle Dropdown&lt;/span&gt;
+                  &lt;/button&gt;
+                  &lt;div class="dropdown-menu"&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;
+                    &lt;div role="separator" class="dropdown-divider"&gt;&lt;/div&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Separated link&lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control" aria-label="Text input with segmented dropdown button" /&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group"&gt;
+                &lt;input type="text" class="form-control" aria-label="Text input with segmented dropdown button" /&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;button type="button" class="btn btn-outline-secondary"&gt;Action&lt;/button&gt;
+                  &lt;button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+                    &lt;span class="sr-only"&gt;Toggle Dropdown&lt;/span&gt;
+                  &lt;/button&gt;
+                  &lt;div class="dropdown-menu"&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;
+                    &lt;div role="separator" class="dropdown-divider"&gt;&lt;/div&gt;
+                    &lt;a class="dropdown-item" href="#"&gt;Separated link&lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="custom-forms" class="mb-9">
+          <h2 class="h4">Custom forms <a class="anchorjs-link" href="#custom-forms" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Input groups include support for custom selects and custom file inputs. Browser default versions of these are not supported.</p>
+        </div>
+
+        <div id="custom-select" class="mb-9">
+          <h2 class="h4">Custom select <a class="anchorjs-link" href="#custom-select" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+              </div>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected="">Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <div class="input-group mb-3">
+              <select class="custom-select" id="inputGroupSelect02">
+                <option selected="">Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="input-group-append">
+                <label class="input-group-text" for="inputGroupSelect02">Options</label>
+              </div>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+              </div>
+              <select class="custom-select" id="inputGroupSelect03">
+                <option selected="">Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <div class="input-group">
+              <select class="custom-select" id="inputGroupSelect04">
+                <option selected="">Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;label class="input-group-text" for="inputGroupSelect01"&gt;Options&lt;/label&gt;
+                &lt;/div&gt;
+                &lt;select class="custom-select" id="inputGroupSelect01"&gt;
+                  &lt;option selected=""&gt;Choose...&lt;/option&gt;
+                  &lt;option value="1"&gt;One&lt;/option&gt;
+                  &lt;option value="2"&gt;Two&lt;/option&gt;
+                  &lt;option value="3"&gt;Three&lt;/option&gt;
+                &lt;/select&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;select class="custom-select" id="inputGroupSelect02"&gt;
+                  &lt;option selected=""&gt;Choose...&lt;/option&gt;
+                  &lt;option value="1"&gt;One&lt;/option&gt;
+                  &lt;option value="2"&gt;Two&lt;/option&gt;
+                  &lt;option value="3"&gt;Three&lt;/option&gt;
+                &lt;/select&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;label class="input-group-text" for="inputGroupSelect02"&gt;Options&lt;/label&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;select class="custom-select" id="inputGroupSelect03"&gt;
+                  &lt;option selected=""&gt;Choose...&lt;/option&gt;
+                  &lt;option value="1"&gt;One&lt;/option&gt;
+                  &lt;option value="2"&gt;Two&lt;/option&gt;
+                  &lt;option value="3"&gt;Three&lt;/option&gt;
+                &lt;/select&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group"&gt;
+                &lt;select class="custom-select" id="inputGroupSelect04"&gt;
+                  &lt;option selected=""&gt;Choose...&lt;/option&gt;
+                  &lt;option value="1"&gt;One&lt;/option&gt;
+                  &lt;option value="2"&gt;Two&lt;/option&gt;
+                  &lt;option value="3"&gt;Three&lt;/option&gt;
+                &lt;/select&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="custom-file-input" class="mb-9">
+          <h2 class="h4">Custom file input <a class="anchorjs-link" href="#custom-file-input" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Upload</span>
+              </div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01" />
+                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+              </div>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile02" />
+                <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+              </div>
+              <div class="input-group-append">
+                <span class="input-group-text">Upload</span>
+              </div>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+              </div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile03" />
+                <label class="custom-file-label" for="inputGroupFile03">Choose file</label>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile04" />
+                <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+              </div>
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Button</button>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;span class="input-group-text"&gt;Upload&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="custom-file"&gt;
+                  &lt;input type="file" class="custom-file-input" id="inputGroupFile01" /&gt;
+                  &lt;label class="custom-file-label" for="inputGroupFile01"&gt;Choose file&lt;/label&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="custom-file"&gt;
+                  &lt;input type="file" class="custom-file-input" id="inputGroupFile02" /&gt;
+                  &lt;label class="custom-file-label" for="inputGroupFile02"&gt;Choose file&lt;/label&gt;
+                &lt;/div&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;span class="input-group-text"&gt;Upload&lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group mb-3"&gt;
+                &lt;div class="input-group-prepend"&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class="custom-file"&gt;
+                  &lt;input type="file" class="custom-file-input" id="inputGroupFile03" /&gt;
+                  &lt;label class="custom-file-label" for="inputGroupFile03"&gt;Choose file&lt;/label&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;div class="input-group"&gt;
+                &lt;div class="custom-file"&gt;
+                  &lt;input type="file" class="custom-file-input" id="inputGroupFile04" /&gt;
+                  &lt;label class="custom-file-label" for="inputGroupFile04"&gt;Choose file&lt;/label&gt;
+                &lt;/div&gt;
+                &lt;div class="input-group-append"&gt;
+                  &lt;button class="btn btn-outline-secondary" type="button"&gt;Button&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="front-form-groups" class="mb-9">
+          <h2 class="h4">Front form groups <a class="anchorjs-link" href="#front-form-groups" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <form class="input-group u-form mb-3">
+              <div class="input-group-prepend u-form__append">
+                <span class="input-group-text u-form__text">
+                  <span class="fa fa-user u-form__text-inner"></span>
+                </span>
+              </div>
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-default">
+            </form>
+
+            <form class="input-group u-form mb-3">
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-default">
+              <div class="input-group-append u-form__append">
+                <span class="input-group-text u-form__text">
+                  <span class="fa fa-user u-form__text-inner"></span>
+                </span>
+              </div>
+            </form>
+
+            <form class="input-group u-form mb-3">
+              <div class="input-group-prepend u-form__prepend">
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-default">
+            </form>
+
+            <form class="input-group u-form mb-3">
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-default">
+              <div class="input-group-append u-form__append">
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+
+            <form class="input-group u-form u-form--pill mb-3">
+              <div class="input-group-prepend u-form__prepend">
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-sm">
+            </form>
+
+            <form class="input-group u-form u-form--pill mb-3">
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-sm">
+              <div class="input-group-append u-form__append">
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+
+            <form class="input-group u-form u-form--pill u-form--no-brd mb-3">
+              <div class="input-group-prepend u-form__prepend">
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-lg">
+              <div class="input-group-append u-form__append">
+                <span class="input-group-text u-form__text">
+                  <span class="fa fa-user u-form__text-inner"></span>
+                </span>
+              </div>
+            </form>
+
+            <form class="input-group u-form u-form--pill u-form--no-brd mb-3">
+              <div class="input-group-prepend u-form__prepend">
+                <span class="input-group-text u-form__text">
+                  <span class="fa fa-user u-form__text-inner"></span>
+                </span>
+              </div>
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-lg">
+              <div class="input-group-append u-form__append">
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+
+            <form class="input-group input-group-sm u-form u-form--sm u-form--modern mb-3">
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-sm">
+              <div class="input-group-append u-form__append">
+                <span class="input-group-text u-form__text">
+                  <span class="fa fa-user u-form__text-inner"></span>
+                </span>
+              </div>
+            </form>
+
+            <form class="input-group input-group-sm u-form u-form--sm u-form--modern mb-3">
+              <div class="input-group-prepend u-form__prepend">
+                <span class="input-group-text u-form__text">
+                  <span class="fa fa-user u-form__text-inner"></span>
+                </span>
+              </div>
+              <input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-sm">
+            </form>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;form class="input-group u-form mb-3"&gt;
+                &lt;div class="input-group-prepend u-form__append"&gt;
+                  &lt;span class="input-group-text u-form__text"&gt;
+                    &lt;span class="fa fa-user u-form__text-inner"&gt;&lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-default"&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group u-form mb-3"&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-default"&gt;
+                &lt;div class="input-group-append u-form__append"&gt;
+                  &lt;span class="input-group-text u-form__text"&gt;
+                    &lt;span class="fa fa-user u-form__text-inner"&gt;&lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group u-form mb-3"&gt;
+                &lt;div class="input-group-prepend u-form__prepend"&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;
+                    &lt;i class="fas fa-paper-plane"&gt;&lt;/i&gt;
+                  &lt;/button&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-default"&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group u-form mb-3"&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-default"&gt;
+                &lt;div class="input-group-append u-form__append"&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;
+                    &lt;i class="fas fa-paper-plane"&gt;&lt;/i&gt;
+                  &lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group u-form u-form--pill mb-3"&gt;
+                &lt;div class="input-group-prepend u-form__prepend"&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;
+                    &lt;i class="fas fa-paper-plane"&gt;&lt;/i&gt;
+                  &lt;/button&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-sm"&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group u-form u-form--pill mb-3"&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-sm"&gt;
+                &lt;div class="input-group-append u-form__append"&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;
+                    &lt;i class="fas fa-paper-plane"&gt;&lt;/i&gt;
+                  &lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group u-form u-form--pill u-form--no-brd mb-3"&gt;
+                &lt;div class="input-group-prepend u-form__prepend"&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;
+                    &lt;i class="fas fa-paper-plane"&gt;&lt;/i&gt;
+                  &lt;/button&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-lg"&gt;
+                &lt;div class="input-group-append u-form__append"&gt;
+                  &lt;span class="input-group-text u-form__text"&gt;
+                    &lt;span class="fa fa-user u-form__text-inner"&gt;&lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group u-form u-form--pill u-form--no-brd mb-3"&gt;
+                &lt;div class="input-group-prepend u-form__prepend"&gt;
+                  &lt;span class="input-group-text u-form__text"&gt;
+                    &lt;span class="fa fa-user u-form__text-inner"&gt;&lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-lg"&gt;
+                &lt;div class="input-group-append u-form__append"&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;
+                    &lt;i class="fas fa-paper-plane"&gt;&lt;/i&gt;
+                  &lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group input-group-sm u-form u-form--sm u-form--modern mb-3"&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-sm"&gt;
+                &lt;div class="input-group-append u-form__append"&gt;
+                  &lt;span class="input-group-text u-form__text"&gt;
+                    &lt;span class="fa fa-user u-form__text-inner"&gt;&lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/form&gt;
+
+              &lt;form class="input-group input-group-sm u-form u-form--sm u-form--modern mb-3"&gt;
+                &lt;div class="input-group-prepend u-form__prepend"&gt;
+                  &lt;span class="input-group-text u-form__text"&gt;
+                    &lt;span class="fa fa-user u-form__text-inner"&gt;&lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/div&gt;
+                &lt;input type="text" class="form-control u-form__input" placeholder="Example" aria-label="Example" aria-describedby="inputGroup-sizing-sm"&gt;
+              &lt;/form&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="accessibility" class="mb-9">
+          <h2 class="h4">Accessibility <a class="anchorjs-link" href="#accessibility" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Screen readers will have trouble with your forms if you don't include a label for every input. For these input groups, ensure that any additional label or functionality is conveyed to assistive technologies.</p>
+
+          <p>The exact technique to be used (<code class="highlighter-rouge">&lt;label&gt;</code> elements hidden using the <code class="highlighter-rouge">.sr-only</code> class, or use of the <code class="highlighter-rouge">aria-label</code> and <code class="highlighter-rouge">aria-labelledby</code> attributes, possibly in combination with <code class="highlighter-rouge">aria-describedby</code>) and what additional information will need to be conveyed will vary depending on the exact type of interface widget you're implementing. The examples in this section provide a few suggested, case-specific approaches.</p>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

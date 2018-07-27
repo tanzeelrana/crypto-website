@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Collapse - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a class="active" href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active"><a href="#how-it-works">How to use?</a></li>
+          <li class="fd-toc-entry"><a href="#how-it-works">How it works</a></li>
+          <li class="fd-toc-entry"><a href="#example">Example</a></li>
+          <li class="fd-toc-entry"><a href="#multiple-targets">Multiple targets</a></li>
+          <li class="fd-toc-entry"><a href="#accordion-example">Accordion example</a></li>
+          <li class="fd-toc-entry"><a href="#accessibility">Accessibility</a></li>
+          <li class="fd-toc-entry">
+            <a href="#usage">Usage</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#via-data-attributes">Via data attributes</a></li>
+              <li class="fd-toc-entry"><a href="#jS-behavior">JavaScript behavior</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Collapse</h1>
+          <p class="lead font-weight-normal">Toggle the visibility of content across your project with a few classes and our JavaScript plugins.</p>
+        </div>
+
+        <div id="how-it-works" class="mb-9">
+          <h2 class="h4">How it works <a class="anchorjs-link" href="#how-it-works" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>The collapse JavaScript plugin is used to show and hide content. Buttons or anchors are used as triggers that are mapped to specific elements you toggle. Collapsing an element will animate the <code class="highlighter-rouge">height</code> from it's current value to <code class="highlighter-rouge">0</code>. Given how CSS handles animations, you cannot use <code class="highlighter-rouge">padding</code> on a <code class="highlighter-rouge">.collapse</code> element. Instead, use the class as an independent wrapping element.</p>
+        </div>
+
+        <div id="example" class="mb-9">
+          <h2 class="h4">Example <a class="anchorjs-link" href="#example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <p>Click the buttons below to show and hide another element via class changes:</p>
+
+          <ul>
+            <li><code class="highlighter-rouge">.collapse</code> hides content</li>
+            <li><code class="highlighter-rouge">.collapsing</code> is applied during transitions</li>
+            <li><code class="highlighter-rouge">.collapse.show</code> shows content</li>
+          </ul>
+
+          <p>You can use a link with the <code class="highlighter-rouge">href</code> attribute, or a button with the <code class="highlighter-rouge">data-target</code> attribute. In both cases, the <code class="highlighter-rouge">data-toggle="collapse"</code> is required.</p>
+
+          <div class="fd-example">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Link with href
+              </a>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Button with data-target
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;p&gt;
+                &lt;a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"&gt;
+                  Link with href
+                &lt;/a&gt;
+                &lt;button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"&gt;
+                  Button with data-target
+                &lt;/button&gt;
+              &lt;/p&gt;
+              &lt;div class="collapse" id="collapseExample"&gt;
+                &lt;div class="card card-body"&gt;
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="multiple-targets" class="mb-9">
+          <h2 class="h4">Multiple targets <a class="anchorjs-link" href="#multiple-targets" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>A <code class="highlighter-rouge">&lt;button&gt;</code> or <code class="highlighter-rouge">&lt;a&gt;</code> can show and hide multiple elements by referencing them with a JQuery selector in its <code class="highlighter-rouge">href</code> or <code class="highlighter-rouge">data-target</code> attribute.
+          Multiple <code class="highlighter-rouge">&lt;button&gt;</code> or <code class="highlighter-rouge">&lt;a&gt;</code> can show and hide an element if they each reference it with their <code class="highlighter-rouge">href</code> or <code class="highlighter-rouge">data-target</code> attribute</p>
+
+          <div class="fd-example">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;p&gt;
+                &lt;a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"&gt;Toggle first element&lt;/a&gt;
+                &lt;button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"&gt;Toggle second element&lt;/button&gt;
+                &lt;button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"&gt;Toggle both elements&lt;/button&gt;
+              &lt;/p&gt;
+              &lt;div class="row"&gt;
+                &lt;div class="col"&gt;
+                  &lt;div class="collapse multi-collapse" id="multiCollapseExample1"&gt;
+                    &lt;div class="card card-body"&gt;
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col"&gt;
+                  &lt;div class="collapse multi-collapse" id="multiCollapseExample2"&gt;
+                    &lt;div class="card card-body"&gt;
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="accordion-example" class="mb-9">
+          <h2 class="h4">Accordion example <a class="anchorjs-link" href="#accordion-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Using the <a href="http://getbootstrap.com/docs/4.1/components/card/">card</a> component, you can extend the default collapse behavior to create an accordion.</p>
+
+          <div class="fd-example">
+            <div id="basicsAccordion">
+              <div class="card mb-3">
+                <div class="card-header u-card-header" id="basicsHeadingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn p-3"
+                            data-toggle="collapse"
+                            data-target="#basicsCollapseOne"
+                            aria-expanded="true"
+                            aria-controls="basicsCollapseOne">
+                      Do you have any built-in caching?
+
+                      <span class="u-card-btn__arrow">
+                        <span class="fa fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="basicsCollapseOne" class="collapse show"
+                     aria-labelledby="basicsHeadingOne"
+                     data-parent="#basicsAccordion">
+                  <div class="card-body u-card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-header u-card-header" id="basicsHeadingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
+                            data-toggle="collapse"
+                            data-target="#basicsCollapseTwo"
+                            aria-expanded="false"
+                            aria-controls="basicsCollapseTwo">
+                      Can I add/upgrade my plan at any time?
+
+                      <span class="u-card-btn__arrow">
+                        <span class="fa fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="basicsCollapseTwo" class="collapse"
+                     aria-labelledby="basicsHeadingTwo"
+                     data-parent="#basicsAccordion">
+                  <div class="card-body u-card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-header u-card-header" id="basicsHeadingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
+                            data-toggle="collapse"
+                            data-target="#basicsCollapseThree"
+                            aria-expanded="false"
+                            aria-controls="basicsCollapseThree">
+                      What access comes with my hosting plan?
+
+                      <span class="u-card-btn__arrow">
+                        <span class="fa fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="basicsCollapseThree" class="collapse"
+                     aria-labelledby="basicsHeadingThree"
+                     data-parent="#basicsAccordion">
+                  <div class="card-body u-card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-header u-card-header" id="basicsHeadingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
+                            data-toggle="collapse"
+                            data-target="#basicsCollapseFour"
+                            aria-expanded="false"
+                            aria-controls="basicsCollapseFour">
+                      How do I change my password?
+
+                      <span class="u-card-btn__arrow">
+                        <span class="fa fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="basicsCollapseFour" class="collapse"
+                     aria-labelledby="basicsHeadingFour"
+                     data-parent="#basicsAccordion">
+                  <div class="card-body u-card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;div id="basicsAccordion"&gt;
+                  &lt;div class="card mb-3"&gt;
+                    &lt;div class="card-header u-card-header" id="basicsHeadingOne"&gt;
+                      &lt;h5 class="mb-0"&gt;
+                        &lt;button class="btn btn-link btn-block d-flex justify-content-between u-card-btn p-3"
+                                data-toggle="collapse"
+                                data-target="#basicsCollapseOne"
+                                aria-expanded="true"
+                                aria-controls="basicsCollapseOne"&gt;
+                          Do you have any built-in caching?
+
+                          &lt;span class="u-card-btn__arrow"&gt;
+                            &lt;span class="fa fa-arrow-down small"&gt;&lt;/span&gt;
+                          &lt;/span&gt;
+                        &lt;/button&gt;
+                      &lt;/h5&gt;
+                    &lt;/div&gt;
+                    &lt;div id="basicsCollapseOne" class="collapse show"
+                         aria-labelledby="basicsHeadingOne"
+                         data-parent="#basicsAccordion"&gt;
+                      &lt;div class="card-body u-card-body"&gt;
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class="card mb-3"&gt;
+                    &lt;div class="card-header u-card-header" id="basicsHeadingTwo"&gt;
+                      &lt;h5 class="mb-0"&gt;
+                        &lt;button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
+                                data-toggle="collapse"
+                                data-target="#basicsCollapseTwo"
+                                aria-expanded="false"
+                                aria-controls="basicsCollapseTwo"&gt;
+                          Can I add/upgrade my plan at any time?
+
+                          &lt;span class="u-card-btn__arrow"&gt;
+                            &lt;span class="fa fa-arrow-down small"&gt;&lt;/span&gt;
+                          &lt;/span&gt;
+                        &lt;/button&gt;
+                      &lt;/h5&gt;
+                    &lt;/div&gt;
+                    &lt;div id="basicsCollapseTwo" class="collapse"
+                         aria-labelledby="basicsHeadingTwo"
+                         data-parent="#basicsAccordion"&gt;
+                      &lt;div class="card-body u-card-body"&gt;
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class="card mb-3"&gt;
+                    &lt;div class="card-header u-card-header" id="basicsHeadingThree"&gt;
+                      &lt;h5 class="mb-0"&gt;
+                        &lt;button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
+                                data-toggle="collapse"
+                                data-target="#basicsCollapseThree"
+                                aria-expanded="false"
+                                aria-controls="basicsCollapseThree"&gt;
+                          What access comes with my hosting plan?
+
+                          &lt;span class="u-card-btn__arrow"&gt;
+                            &lt;span class="fa fa-arrow-down small"&gt;&lt;/span&gt;
+                          &lt;/span&gt;
+                        &lt;/button&gt;
+                      &lt;/h5&gt;
+                    &lt;/div&gt;
+                    &lt;div id="basicsCollapseThree" class="collapse"
+                         aria-labelledby="basicsHeadingThree"
+                         data-parent="#basicsAccordion"&gt;
+                      &lt;div class="card-body u-card-body"&gt;
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class="card mb-3"&gt;
+                    &lt;div class="card-header u-card-header" id="basicsHeadingFour"&gt;
+                      &lt;h5 class="mb-0"&gt;
+                        &lt;button class="btn btn-link btn-block d-flex justify-content-between u-card-btn collapsed p-3"
+                                data-toggle="collapse"
+                                data-target="#basicsCollapseFour"
+                                aria-expanded="false"
+                                aria-controls="basicsCollapseFour"&gt;
+                          How do I change my password?
+
+                          &lt;span class="u-card-btn__arrow"&gt;
+                            &lt;span class="fa fa-arrow-down small"&gt;&lt;/span&gt;
+                          &lt;/span&gt;
+                        &lt;/button&gt;
+                      &lt;/h5&gt;
+                    &lt;/div&gt;
+                    &lt;div id="basicsCollapseFour" class="collapse"
+                         aria-labelledby="basicsHeadingFour"
+                         data-parent="#basicsAccordion"&gt;
+                      &lt;div class="card-body u-card-body"&gt;
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div id="accessibility" class="mb-9">
+          <h2 class="h4">Accessibility <a class="anchorjs-link" href="#accessibility" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Be sure to add <code class="highlighter-rouge">aria-expanded</code> to the control element. This attribute explicitly conveys the current state of the collapsible element tied to the control to screen readers and similar assistive technologies. If the collapsible element is closed by default, the attribute on the control element should have a value of <code class="highlighter-rouge">aria-expanded="false"</code>. If you've set the collapsible element to be open by default using the <code class="highlighter-rouge">show</code> class, set <code class="highlighter-rouge">aria-expanded="true"</code> on the control instead. The plugin will automatically toggle this attribute on the control based on whether or not the collapsible element has been opened or closed (via JavaScript, or because the user triggered another control element also tied to the same collapsbile element). If the control element's HTML element is not a button (e.g., an <code class="highlighter-rouge">&lt;a&gt;</code> or <code class="highlighter-rouge">&lt;div&gt;</code>), the attribute <code class="highlighter-rouge">role="button"</code> should be added to the element.</p>
+
+          <p>If your control element is targeting a single collapsible element – i.e. the <code class="highlighter-rouge">data-target</code> attribute is pointing to an <code class="highlighter-rouge">id</code> selector – you should add the <code class="highlighter-rouge">aria-controls</code> attribute to the control element, containing the <code class="highlighter-rouge">id</code> of the collapsible element. Modern screen readers and similar assistive technologies make use of this attribute to provide users with additional shortcuts to navigate directly to the collapsible element itself.</p>
+
+          <p>Note that Bootstrap's current implementation does not cover the various keyboard interactions described in the <a href="https://www.w3.org/TR/wai-aria-practices-1.1/#accordion">WAI-ARIA Authoring Practices 1.1 accordion pattern</a> - you will need to include these yourself with custom JavaScript.</p>
+        </div>
+
+        <div id="usage" class="mb-9">
+          <h2 class="h4">Usage <a class="anchorjs-link" href="#usage" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>The collapse plugin utilizes a few classes to handle the heavy lifting:</p>
+
+          <ul>
+            <li><code class="highlighter-rouge">.collapse</code> hides the content</li>
+            <li><code class="highlighter-rouge">.collapse.show</code> shows the content</li>
+            <li><code class="highlighter-rouge">.collapsing</code> is added when the transition starts, and removed when it finishes</li>
+          </ul>
+
+          <p>These classes can be found in <code class="highlighter-rouge">assets/vendor/bootstrap/scss/_transitions.scss</code>.</p>
+        </div>
+
+        <div id="via-data-attributes" class="mb-9">
+          <h2 class="h4">Via data attributes <a class="anchorjs-link" href="#via-data-attributes" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Just add <code class="highlighter-rouge">data-toggle="collapse"</code> and a <code class="highlighter-rouge">data-target</code> to the element to automatically assign control of one or more collapsible elements. The <code class="highlighter-rouge">data-target</code> attribute accepts a CSS selector to apply the collapse to. Be sure to add the class <code class="highlighter-rouge">collapse</code> to the collapsible element. If you'd like it to default open, add the additional class <code class="highlighter-rouge">show</code>.</p>
+
+          <p>To add accordion-like group management to a collapsible area, add the data attribute <code class="highlighter-rouge">data-parent="#selector"</code>. Refer to the demo to see this in action.</p>
+        </div>
+
+        <div id="jS-behavior">
+          <h2 class="h4">JavaScript behavior <a class="anchorjs-link" href="#jS-behavior" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>For more information, see the official <a href="http://getbootstrap.com/docs/4.1/components/collapse/#via-javascript">Bootstrap documentation</a>.</p>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

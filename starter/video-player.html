@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Video Player - Front Starter | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../documentation/assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section u-gradient-half-primary-v1 u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="index.html" aria-label="Front">
+            <img src="../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Documentation -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../documentation/index.html">Documentation</a>
+              </li>
+              <!-- End Documentation -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../documentation/assets/include/ajax/autocomplete-data-for-starter-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="cta.html">Call-to-action (CTA)</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="footers.html">Footers</a></li>
+            <li><a href="form-layouts.html">Form layouts</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="header-layouts.html">Header layouts</a></li>
+            <li><a href="hero.html">Hero</a></li>
+            <li><a href="hero-subscribe.html">Hero Subscribe</a></li>
+            <li><a href="icon-blocks.html">Icon blocks</a></li>
+            <li><a href="indicators.html">Indicator</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="modal-window.html">Modal Window</a></li>
+            <li><a href="news-blogs.html">News Blogs</a></li>
+            <li><a href="pagination.html">Pagination</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="products-hero.html">Products hero</a></li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="unfold-dropdown.html">Unfold (Dropdown)</a></li>
+            <li><a href="unfold-sidebar.html">Unfold (Sidebar)</a></li>
+            <li><a class="active" href="video-player.html">Video Player</a></li>
+          </ul>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-10 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Video Player</h1>
+          <p class="lead font-weight-normal">Examples of video player components.</p>
+        </div>
+
+        <div id="video-player-1" class="mb-9">
+          <h2 class="h4">Video player #1 <a class="anchorjs-link" href="#video-player-1" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div id="videoPlayer1" class="u-video-player">
+              <img class="img-fluid u-video-player__preview" src="../assets/img/900x450/img2.jpg" alt="Image">
+
+              <a class="js-classes-toggle u-video-player__btn u-video-player__centered" href="javascript:;"
+                 data-target="#videoPlayer1"
+                 data-classes="u-video-player__played">
+                <span class="u-video-player__icon u-video-player__icon--lg text-primary">
+                  <span class="fa fa-play u-video-player__icon-inner"></span>
+                </span>
+              </a>
+
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="youTubeVideo" class="embed-responsive-item"
+                        data-src="//www.youtube.com/embed/0qisGSwZym4?autoplay=1&showinfo=0&rel=0">
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="h6">HTML:</h3>
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div id="video" class="u-video-player"&gt;
+                &lt;img class="img-fluid u-video-player__preview" src="../assets/img/900x450/img2.jpg" alt="Image"&gt;
+
+                &lt;a class="js-classes-toggle u-video-player__btn u-video-player__centered" href="javascript:;"
+                   data-target="#video"
+                   data-classes="u-video-player__played"&gt;
+                  &lt;span class="u-video-player__icon u-video-player__icon--lg text-primary"&gt;
+                    &lt;span class="fa fa-play u-video-player__icon-inner"&gt;&lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/a&gt;
+
+                &lt;div class="embed-responsive embed-responsive-16by9"&gt;
+                  &lt;iframe id="youTubeVideo" class="embed-responsive-item"
+                          data-src="//www.youtube.com/embed/0qisGSwZym4?autoplay=1&showinfo=0&rel=0"&gt;
+                  &lt;/iframe&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">JS library and initialization:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/js/helpers/hs.video-player.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Plugins Init. --&gt;
+              &lt;script&gt;
+                $(function () {
+                  // initialization of slick carousels
+                  $.HSCore.components.HSVideoPlayer.init('.js-classes-toggle', {
+                    oneClick: function() {
+                      $('#youTubeVideo').attr('src', $('#youTubeVideo').data('src'));
+                    }
+                  });
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="video-player-2" class="mb-9">
+          <h2 class="h4">Video player #2 <a class="anchorjs-link" href="#video-player-2" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="w-60 position-relative u-space-1 mx-auto">
+              <div id="videoPlayer2" class="u-video-player">
+                <img class="img-fluid u-video-player__preview" src="../assets/img/900x450/img5.jpg" alt="Image">
+
+                <a class="js-classes-toggle-2 u-video-player__btn u-video-player__centered" href="javascript:;"
+                   data-target="#videoPlayer2"
+                   data-classes="u-video-player__played">
+                  <span class="u-video-player__icon u-video-player__icon--lg text-primary">
+                    <span class="fa fa-play u-video-player__icon-inner"></span>
+                  </span>
+                </a>
+
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe id="vimeoVideo" class="embed-responsive-item"
+                          data-src="//www.youtube.com/embed/0qisGSwZym4?autoplay=1&showinfo=0&rel=0">
+                  </iframe>
+                </div>
+              </div>
+
+              <figure class="w-100 u-content-centered z-index-minus-1">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1109.8 797.1" style="enable-background:new 0 0 1109.8 797.1;" xml:space="preserve">
+                  <path class="u-fill-primary" opacity=".1" d="M105.1,267.1C35.5,331.5-3.5,423,0.3,517.7c5.8,145.3,110.7,314.2,588,273.1c753-64.7,481.3-358.3,440.4-398.3
+                    c-4-3.9-7.9-7.9-11.7-12L761.9,104.8C639.4-27.6,432.5-35.6,299.9,87L105.1,267.1z"/>
+                </svg>
+              </figure>
+            </div>
+          </div>
+
+          <h3 class="h6">HTML:</h3>
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="position-relative"&gt;
+                &lt;div id="video2" class="u-video-player"&gt;
+                  &lt;img class="img-fluid u-video-player__preview" src="../assets/img/900x450/img5.jpg" alt="Image"&gt;
+
+                  &lt;a class="js-classes-toggle-2 u-video-player__btn u-video-player__centered" href="javascript:;"
+                     data-target="#video2"
+                     data-classes="u-video-player__played"&gt;
+                    &lt;span class="u-video-player__icon u-video-player__icon--lg text-primary"&gt;
+                      &lt;span class="fa fa-play u-video-player__icon-inner"&gt;&lt;/span&gt;
+                    &lt;/span&gt;
+                  &lt;/a&gt;
+
+                  &lt;div class="embed-responsive embed-responsive-16by9"&gt;
+                    &lt;iframe id="vimeoVideo" class="embed-responsive-item"
+                            data-src="//www.youtube.com/embed/0qisGSwZym4?autoplay=1&showinfo=0&rel=0"&gt;
+                    &lt;/iframe&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;figure class="w-100 u-content-centered z-index-minus-1"&gt;
+                  &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                       viewBox="0 0 1109.8 797.1" style="enable-background:new 0 0 1109.8 797.1;" xml:space="preserve"&gt;
+                    &lt;path class="u-fill-primary" opacity=".1" d="M105.1,267.1C35.5,331.5-3.5,423,0.3,517.7c5.8,145.3,110.7,314.2,588,273.1c753-64.7,481.3-358.3,440.4-398.3
+                      c-4-3.9-7.9-7.9-11.7-12L761.9,104.8C639.4-27.6,432.5-35.6,299.9,87L105.1,267.1z"/&gt;
+                  &lt;/svg&gt;
+                &lt;/figure&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">JS library and initialization:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/js/helpers/hs.video-player.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Plugins Init. --&gt;
+              &lt;script&gt;
+                $(function () {
+                  // initialization of slick carousels
+                  $.HSCore.components.HSVideoPlayer.init('.js-classes-toggle', {
+                    oneClick: function() {
+                      $('#vimeoVideo').attr('src', $('#vimeoVideo').data('src'));
+                    }
+                  });
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="video-player-3" class="mb-9">
+          <h2 class="h4">Video player #3 <a class="anchorjs-link" href="#video-player-3" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="position-relative">
+              <div class="u-bg-img-hero text-center u-space-4" style="background-image: url(../assets/img/1920x800/img1.jpg);">
+                <a class="js-fancybox u-media-player mb-4" href="javascript:;"
+                   data-src="//vimeo.com/167434033"
+                   data-speed="700"
+                   data-animate-in="zoomIn"
+                   data-animate-out="zoomOut"
+                   data-caption="Front - Responsive Website Template">
+                  <span class="u-media-player__icon u-media-player__icon--lg">
+                    <span class="fa fa-play u-media-player__icon-inner"></span>
+                  </span>
+                </a>
+                <br>
+                <h4 class="d-inline-block text-white mb-0">Watch Front Video</h4>
+              </div>
+
+              <figure class="position-absolute-bottom-0">
+                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                     width="100%" height="140px" viewBox="20 -20 300 100" style="margin-bottom: -8px;" xml:space="preserve">
+                  <path class="u-fill-white" opacity="0.4" d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729
+              c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z" />
+                  <path class="u-fill-white" opacity="0.4" d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729
+              c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z" />
+                  <path class="u-fill-white" opacity="0" d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716
+              H42.401L43.415,98.342z" />
+                  <path class="u-fill-white" d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428
+              c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z" />
+                </svg>
+              </figure>
+            </div>
+          </div>
+
+          <h3 class="h6">HTML:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="position-relative"&gt;
+                &lt;div class="u-bg-img-hero text-center u-space-4" style="background-image: url(../assets/img/1920x800/img1.jpg);"&gt;
+                  &lt;a class="js-fancybox u-media-player mb-4" href="javascript:;"
+                     data-src="//vimeo.com/167434033"
+                     data-speed="700"
+                     data-animate-in="zoomIn"
+                     data-animate-out="zoomOut"
+                     data-caption="Front - Responsive Website Template"&gt;
+                    &lt;span class="u-media-player__icon u-media-player__icon--lg"&gt;
+                      &lt;span class="fa fa-play u-media-player__icon-inner"&gt;&lt;/span&gt;
+                    &lt;/span&gt;
+                  &lt;/a&gt;
+                  &lt;br&gt;
+                  &lt;h4 class="d-inline-block text-white mb-0"&gt;Watch Front Video&lt;/h4&gt;
+                &lt;/div&gt;
+
+                &lt;figure class="position-absolute-bottom-0"&gt;
+                  &lt;svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                       width="100%" height="140px" viewBox="20 -20 300 100" style="margin-bottom: -8px;" xml:space="preserve"&gt;
+                    &lt;path class="u-fill-white" opacity="0.4" d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729
+                c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z" /&gt;
+                    &lt;path class="u-fill-white" opacity="0.4" d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729
+                c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z" /&gt;
+                    &lt;path class="u-fill-white" opacity="0" d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716
+                H42.401L43.415,98.342z" /&gt;
+                    &lt;path class="u-fill-white" d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428
+                c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z" /&gt;
+                  &lt;/svg&gt;
+                &lt;/figure&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">CSS library:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css"&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">JS library and initialization:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/vendor/fancybox/jquery.fancybox.min.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/js/components/hs.fancybox.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Plugins Init. --&gt;
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of popups
+                  $.HSCore.components.HSPopup.init('.js-fancybox');
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="video-player-4" class="mb-9">
+          <h2 class="h4">Video player #4 <a class="anchorjs-link" href="#video-player-4" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="position-relative">
+              <div class="u-bg-img-hero text-center u-space-4" style="background-image: url(../assets/img/1920x800/img4.jpg);">
+                <a class="js-fancybox u-media-player mb-4" href="javascript:;"
+                   data-src="//vimeo.com/167434033"
+                   data-speed="700"
+                   data-animate-in="zoomIn"
+                   data-animate-out="zoomOut"
+                   data-caption="Front - Responsive Website Template">
+                  <span class="u-media-player__icon u-media-player__icon--lg">
+                    <span class="fa fa-play u-media-player__icon-inner"></span>
+                  </span>
+                </a>
+                <br>
+                <h4 class="d-inline-block text-white mb-0">Watch Front Video</h4>
+              </div>
+
+              <figure class="w-100 position-absolute-top-0">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1920 125.7" style="margin-top: -8px; margin-bottom: 0; enable-background:new 0 0 1920 125.7;" xml:space="preserve">
+                  <path class="u-fill-white" d="M1920,0v44.2c0,0-451,63.8-960,6.3S0,125.7,0,125.7L0,0L1920,0z"/>
+                </svg>
+              </figure>
+
+              <figure class="w-100 position-absolute-bottom-0">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1920.5 248.5" style="margin-bottom: -8px; enable-background:new 0 0 1920.5 248.5;" xml:space="preserve">
+                  <path class="u-fill-white" d="M0.5,248.5v-44.2c0,0,451-63.8,960-6.3s960-75.1,960-75.1v125.7H0.5z"/>
+                </svg>
+              </figure>
+            </div>
+          </div>
+
+          <h3 class="h6">HTML:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;div class="position-relative"&gt;
+                &lt;div class="u-bg-img-hero text-center u-space-4" style="background-image: url(../assets/img/1920x800/img4.jpg);"&gt;
+                  &lt;a class="js-fancybox u-media-player mb-4" href="javascript:;"
+                     data-src="//vimeo.com/167434033"
+                     data-speed="700"
+                     data-animate-in="zoomIn"
+                     data-animate-out="zoomOut"
+                     data-caption="Front - Responsive Website Template"&gt;
+                    &lt;span class="u-media-player__icon u-media-player__icon--lg"&gt;
+                      &lt;span class="fa fa-play u-media-player__icon-inner"&gt;&lt;/span&gt;
+                    &lt;/span&gt;
+                  &lt;/a&gt;
+                  &lt;br&gt;
+                  &lt;h4 class="d-inline-block text-white mb-0"&gt;Watch Front Video&lt;/h4&gt;
+                &lt;/div&gt;
+
+                &lt;figure class="w-100 position-absolute-top-0"&gt;
+                  &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                       viewBox="0 0 1920 125.7" style="margin-top: -8px; margin-bottom: 0; enable-background:new 0 0 1920 125.7;" xml:space="preserve"&gt;
+                    &lt;path class="u-fill-white" d="M1920,0v44.2c0,0-451,63.8-960,6.3S0,125.7,0,125.7L0,0L1920,0z"/&gt;
+                  &lt;/svg&gt;
+                &lt;/figure&gt;
+
+                &lt;figure class="w-100 position-absolute-bottom-0"&gt;
+                  &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                       viewBox="0 0 1920.5 248.5" style="margin-bottom: -8px; enable-background:new 0 0 1920.5 248.5;" xml:space="preserve"&gt;
+                    &lt;path class="u-fill-white" d="M0.5,248.5v-44.2c0,0,451-63.8,960-6.3s960-75.1,960-75.1v125.7H0.5z"/&gt;
+                  &lt;/svg&gt;
+                &lt;/figure&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">CSS library:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css"&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">JS library and initialization:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/vendor/fancybox/jquery.fancybox.min.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/js/components/hs.fancybox.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Plugins Init. --&gt;
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of popups
+                  $.HSCore.components.HSPopup.init('.js-fancybox');
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="video-player-5" class="mb-9">
+          <h2 class="h4">Video player #5 <a class="anchorjs-link" href="#video-player-5" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="w-md-50 mx-auto">
+              <a class="js-fancybox u-media-player u-media-player--centered" href="javascript:;"
+                 data-src="//vimeo.com/167434033"
+                 data-speed="700"
+                 data-animate-in="zoomIn"
+                 data-animate-out="zoomOut"
+                 data-caption="Front - Responsive Website Template">
+               <span class="u-media-player__icon u-media-player__icon--xl text-primary">
+                <span class="fa fa-play u-media-player__icon-inner"></span>
+               </span>
+              </a>
+
+              <figure>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 614.8 747.7" style="enable-background:new 0 0 614.8 747.7;" xml:space="preserve">
+                  <path class="u-fill-primary" opacity=".05" d="M186.9,138.9C125.8,144.5,69.7,176,34.4,226c-54.3,76.8-67.1,204.7,193.8,371.7c411.5,263.5,387.9,6,382.7-30.6
+                    c-0.5-3.6-0.9-7.2-1.3-10.7l-22.1-241.9C576.8,198.3,474,112.7,357.7,123.3L186.9,138.9z"/>
+                  <g>
+                    <defs>
+                      <path id="mockup1" d="M168.6,729.7L168.6,729.7c135.8,53,290.2-14.8,343.2-150.6l85-217.9C649.8,225.4,582,71,446.2,18l0,0
+                        C310.4-34.9,156,32.8,103,168.6L18,386.5C-34.9,522.3,32.8,676.7,168.6,729.7z"/>
+                    </defs>
+                    <clipPath id="mockup2">
+                      <use xlink:href="#mockup1"  style="overflow:visible;"/>
+                    </clipPath>
+                    <g style="clip-path:url(#mockup2);">
+                      <!-- Apply your (615px width to 750px height) image here -->
+                      <image style="overflow:visible;" width="615" height="750" xlink:href="../assets/img/615x750/img3.jpg"  transform="matrix(1 0 0 1 -0.1366 -0.9532)"></image>
+                    </g>
+                  </g>
+                  <circle class="u-fill-danger" cx="126.3" cy="693.8" r="16.3"/>
+                  <circle class="u-fill-success" cx="132.9" cy="632.6" r="10.6"/>
+                  <circle class="u-fill-primary" cx="77" cy="655.9" r="21.6"/>
+                  <circle class="u-fill-warning" cx="38.8" cy="708.1" r="3.9"/>
+                </svg>
+              </figure>
+            </div>
+          </div>
+
+          <h3 class="h6">HTML:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;a class="js-fancybox u-media-player u-media-player--centered" href="javascript:;"
+                 data-src="//vimeo.com/167434033"
+                 data-speed="700"
+                 data-animate-in="zoomIn"
+                 data-animate-out="zoomOut"
+                 data-caption="Front - Responsive Website Template"&gt;
+               &lt;span class="u-media-player__icon u-media-player__icon--xl text-primary"&gt;
+                &lt;span class="fa fa-play u-media-player__icon-inner"&gt;&lt;/span&gt;
+               &lt;/span&gt;
+              &lt;/a&gt;
+
+              &lt;figure&gt;
+                &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 614.8 747.7" style="enable-background:new 0 0 614.8 747.7;" xml:space="preserve"&gt;
+                  &lt;path class="u-fill-primary" opacity=".05" d="M186.9,138.9C125.8,144.5,69.7,176,34.4,226c-54.3,76.8-67.1,204.7,193.8,371.7c411.5,263.5,387.9,6,382.7-30.6
+                    c-0.5-3.6-0.9-7.2-1.3-10.7l-22.1-241.9C576.8,198.3,474,112.7,357.7,123.3L186.9,138.9z"/&gt;
+                  &lt;g&gt;
+                    &lt;defs&gt;
+                      &lt;path id="mockup1" d="M168.6,729.7L168.6,729.7c135.8,53,290.2-14.8,343.2-150.6l85-217.9C649.8,225.4,582,71,446.2,18l0,0
+                        C310.4-34.9,156,32.8,103,168.6L18,386.5C-34.9,522.3,32.8,676.7,168.6,729.7z"/&gt;
+                    &lt;/defs&gt;
+                    &lt;clipPath id="mockup2"&gt;
+                      &lt;use xlink:href="#mockup1"  style="overflow:visible;"/&gt;
+                    &lt;/clipPath&gt;
+                    &lt;g style="clip-path:url(#mockup2);"&gt;
+                      &lt;!-- Apply your (615px width to 750px height) image here --&gt;
+                      &lt;image style="overflow:visible;" width="615" height="750" xlink:href="../assets/img/615x750/img3.jpg"  transform="matrix(1 0 0 1 -0.1366 -0.9532)"&gt;&lt;/image&gt;
+                    &lt;/g&gt;
+                  &lt;/g&gt;
+                  &lt;circle class="u-fill-danger" cx="126.3" cy="693.8" r="16.3"/&gt;
+                  &lt;circle class="u-fill-success" cx="132.9" cy="632.6" r="10.6"/&gt;
+                  &lt;circle class="u-fill-primary" cx="77" cy="655.9" r="21.6"/&gt;
+                  &lt;circle class="u-fill-warning" cx="38.8" cy="708.1" r="3.9"/&gt;
+                &lt;/svg&gt;
+              &lt;/figure&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">CSS library:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css"&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">JS library and initialization:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/vendor/fancybox/jquery.fancybox.min.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/js/components/hs.fancybox.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Plugins Init. --&gt;
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of popups
+                  $.HSCore.components.HSPopup.init('.js-fancybox');
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../documentation/assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../assets/js/hs.core.js"></script>
+  <script src="../assets/js/components/hs.header.js"></script>
+  <script src="../assets/js/components/hs.unfold.js"></script>
+  <script src="../assets/js/components/hs.go-to.js"></script>
+  <script src="../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../assets/js/components/hs.video-player.js"></script>
+  <script src="../assets/js/components/hs.fancybox.js"></script>
+  <script src="../documentation/assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of fancybox
+      $.HSCore.components.HSFancyBox.init('.js-fancybox');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+
+    $(function () {
+     // initialization of slick carousels
+     $.HSCore.components.HSVideoPlayer.init('.js-classes-toggle', {
+       oneClick: function() {
+         $('#youTubeVideo').attr('src', $('#youTubeVideo').data('src'));
+       }
+     });
+    });
+
+    $(function () {
+     // initialization of slick carousels
+     $.HSCore.components.HSVideoPlayer.init('.js-classes-toggle-2', {
+       oneClick: function() {
+         $('#vimeoVideo').attr('src', $('#vimeoVideo').data('src'));
+       }
+     });
+    });
+  </script>
+</body>
+</html>

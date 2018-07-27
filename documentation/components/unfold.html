@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Unfold (Dropdown and others) - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a class="active" href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active"><a href="#how-to-use">How to use?</a></li>
+          <li class="fd-toc-entry">
+            <a href="#basic-example">Basic example</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#single-button">Single button</a></li>
+              <li class="fd-toc-entry"><a href="#sidebar">Sidebar</a></li>
+            </ul>
+          </li>
+          <li class="fd-toc-entry">
+            <a href="#js-behavior">JavaScript behavior</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#callbacks">Callbacks</a></li>
+              <li class="fd-toc-entry"><a href="#methods">Methods</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Unfold (Dropdown and others)</h1>
+          <p class="lead font-weight-normal">Toggle contextual overlays for displaying lists of links and more with the Front unfold plugin.</p>
+        </div>
+
+        <div id="how-to-use" class="mb-9">
+          <h2 class="h4">How to use? <a class="anchorjs-link" href="#how-to-use" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Wrap the unfold's toggle (your button or link) and the unfold menu within an element that declares <code class="highlighter-rouge">position: relative;</code>. Unfolds can be triggered from <code class="highlighter-rouge">&lt;a&gt;</code> or <code class="highlighter-rouge">&lt;button&gt;</code> elements to better fit your potential needs.</p>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Front</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/js/components/hs.unfold.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of unfold component
+                  $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="basic-example" class="mb-9">
+          <h2 class="h4">Basic example <a class="anchorjs-link" href="#basic-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="position-relative">
+              <a id="dropdownBasicExampleInvoker" class="u-unfold-wrapper" href="javascript:;" role="button"
+                 aria-controls="dropdownBasicExample"
+                 aria-haspopup="true"
+                 aria-expanded="false"
+                 data-unfold-event="click"
+                 data-unfold-target="#dropdownBasicExample"
+                 data-unfold-type="css-animation"
+                 data-unfold-duration="300"
+                 data-unfold-delay="300"
+                 data-unfold-hide-on-scroll="true"
+                 data-unfold-animation-in="slideInUp"
+                 data-unfold-animation-out="fadeOut">
+                Basic example
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </a>
+
+              <div id="dropdownBasicExample" class="u-unfold mt-2" aria-labelledby="dropdownBasicExampleInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="position-relative"&gt;
+                &lt;a id="dropdownBasicExampleInvoker" class="u-unfold-wrapper" href="javascript:;" role="button"
+                   aria-controls="dropdownBasicExample"
+                   aria-haspopup="true"
+                   aria-expanded="false"
+                   data-unfold-event="click"
+                   data-unfold-target="#dropdownBasicExample"
+                   data-unfold-type="css-animation"
+                   data-unfold-duration="300"
+                   data-unfold-delay="300"
+                   data-unfold-hide-on-scroll="true"
+                   data-unfold-animation-in="slideInUp"
+                   data-unfold-animation-out="fadeOut"&gt;
+                  Basic example
+                  &lt;span class="fa fa-angle-down u-unfold__icon-pointer"&gt;&lt;/span&gt;
+                &lt;/a&gt;
+
+                &lt;div id="dropdownBasicExample" class="u-unfold mt-2" aria-labelledby="dropdownBasicExampleInvoker"&gt;
+                  &lt;a class="u-list__link" href="#"&gt;One&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Two&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Three&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="single-button" class="mb-9">
+          <h2 class="h4">Single button <a class="anchorjs-link" href="#single-button" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Any single <code class="highlighter-rouge">.btn</code> can be turned into a dropdown toggle with some markup changes. Here's how you can put them to work with either <code class="highlighter-rouge">&lt;button&gt;</code> elements:</p>
+
+          <div class="fd-example">
+            <div class="position-relative">
+              <button id="dropdownSingleButtonInvoker" class="btn btn-secondary" type="button"
+                      aria-controls="dropdownSingleButton"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-unfold-event="click"
+                      data-unfold-target="#dropdownSingleButton"
+                      data-unfold-type="css-animation"
+                      data-unfold-duration="300"
+                      data-unfold-delay="300"
+                      data-unfold-hide-on-scroll="true"
+                      data-unfold-animation-in="slideInUp"
+                      data-unfold-animation-out="fadeOut">
+                Dropdown button
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </button>
+
+              <div id="dropdownSingleButton" class="u-unfold mt-2" aria-labelledby="dropdownSingleButtonInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="position-relative"&gt;
+                &lt;button id="dropdownSingleButtonInvoker" class="btn btn-secondary" type="button"
+                        aria-controls="dropdownSingleButton"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        data-unfold-event="click"
+                        data-unfold-target="#dropdownSingleButton"
+                        data-unfold-type="css-animation"
+                        data-unfold-duration="300"
+                        data-unfold-delay="300"
+                        data-unfold-hide-on-scroll="true"
+                        data-unfold-animation-in="slideInUp"
+                        data-unfold-animation-out="fadeOut"&gt;
+                  Basic example
+                  &lt;span class="fa fa-angle-down u-unfold__icon-pointer"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+
+                &lt;div id="dropdownSingleButton" class="u-unfold mt-2" aria-labelledby="dropdownSingleButtonInvoker"&gt;
+                  &lt;a class="u-list__link" href="#"&gt;One&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Two&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Three&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+
+          <p>And with <code class="highlighter-rouge">&lt;a&gt;</code> elements:</p>
+
+          <div class="fd-example">
+            <div class="position-relative">
+              <a id="dropdownWithHrefInvoker" class="btn btn-secondary" href="javascript:;" role="button"
+                 aria-controls="dropdownWithHref"
+                 aria-haspopup="true"
+                 aria-expanded="false"
+                 data-unfold-event="click"
+                 data-unfold-target="#dropdownWithHref"
+                 data-unfold-type="css-animation"
+                 data-unfold-duration="300"
+                 data-unfold-delay="300"
+                 data-unfold-hide-on-scroll="true"
+                 data-unfold-animation-in="slideInUp"
+                 data-unfold-animation-out="fadeOut">
+                Basic example
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </a>
+
+              <div id="dropdownWithHref" class="u-unfold mt-2" aria-labelledby="dropdownWithHrefInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="position-relative"&gt;
+                &lt;a id="dropdownWithHrefInvoker" class="btn btn-secondary" href="javascript:;" role="button"
+                   aria-controls="dropdownWithHref"
+                   aria-haspopup="true"
+                   aria-expanded="false"
+                   data-unfold-event="click"
+                   data-unfold-target="#dropdownWithHref"
+                   data-unfold-type="css-animation"
+                   data-unfold-duration="300"
+                   data-unfold-delay="300"
+                   data-unfold-hide-on-scroll="true"
+                   data-unfold-animation-in="slideInUp"
+                   data-unfold-animation-out="fadeOut"&gt;
+                  Basic example
+                  &lt;span class="fa fa-angle-down u-unfold__icon-pointer"&gt;&lt;/span&gt;
+                &lt;/a&gt;
+
+                &lt;div id="dropdownWithHref" class="u-unfold mt-2" aria-labelledby="dropdownWithHrefInvoker"&gt;
+                  &lt;a class="u-list__link" href="#"&gt;One&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Two&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Three&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+
+          <p>And with <code class="highlighter-rouge">hover</code> effect:</p>
+
+          <div class="fd-example">
+            <div class="position-relative">
+              <a id="dropdownOnHoverInvoker" class="btn btn-secondary" href="javascript:;" role="button"
+                 aria-controls="dropdownOnHover"
+                 aria-haspopup="true"
+                 aria-expanded="false"
+                 data-unfold-event="hover"
+                 data-unfold-target="#dropdownOnHover"
+                 data-unfold-type="css-animation"
+                 data-unfold-duration="300"
+                 data-unfold-delay="300"
+                 data-unfold-hide-on-scroll="true"
+                 data-unfold-animation-in="slideInUp"
+                 data-unfold-animation-out="fadeOut">
+                On Hover
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </a>
+
+              <div id="dropdownOnHover" class="u-unfold mt-2" aria-labelledby="dropdownOnHoverInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="position-relative"&gt;
+                &lt;a id="dropdownOnHoverInvoker" class="btn btn-secondary" href="javascript:;" role="button"
+                   aria-controls="dropdownOnHover"
+                   aria-haspopup="true"
+                   aria-expanded="false"
+                   data-unfold-event="hover"
+                   data-unfold-target="#dropdownOnHover"
+                   data-unfold-type="css-animation"
+                   data-unfold-duration="300"
+                   data-unfold-delay="300"
+                   data-unfold-hide-on-scroll="true"
+                   data-unfold-animation-in="slideInUp"
+                   data-unfold-animation-out="fadeOut"&gt;
+                  On Hover
+                  &lt;span class="fa fa-angle-down u-unfold__icon-pointer"&gt;&lt;/span&gt;
+                &lt;/a&gt;
+
+                &lt;div id="dropdownOnHover" class="u-unfold mt-2" aria-labelledby="dropdownOnHoverInvoker"&gt;
+                  &lt;a class="u-list__link" href="#"&gt;One&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Two&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Three&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+
+          <p>The best part is you can do this with any button variant, too:</p>
+
+          <div class="fd-example">
+            <div class="d-lg-inline-block position-relative">
+              <button id="dropdownPrimaryInvoker" class="btn btn-primary" type="button"
+                      aria-controls="dropdownPrimary"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-unfold-event="click"
+                      data-unfold-target="#dropdownPrimary"
+                      data-unfold-type="css-animation"
+                      data-unfold-duration="300"
+                      data-unfold-delay="300"
+                      data-unfold-hide-on-scroll="true"
+                      data-unfold-animation-in="slideInUp"
+                      data-unfold-animation-out="fadeOut">
+                Primary
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </button>
+
+              <div id="dropdownPrimary" class="u-unfold mt-2" aria-labelledby="dropdownPrimaryInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+
+            <div class="d-lg-inline-block position-relative">
+              <button id="dropdownSecondaryInvoker" class="btn btn-secondary" type="button"
+                      aria-controls="dropdownSecondary"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-unfold-event="click"
+                      data-unfold-target="#dropdownSecondary"
+                      data-unfold-type="css-animation"
+                      data-unfold-duration="300"
+                      data-unfold-delay="300"
+                      data-unfold-hide-on-scroll="true"
+                      data-unfold-animation-in="slideInUp"
+                      data-unfold-animation-out="fadeOut">
+                Secondary
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </button>
+
+              <div id="dropdownSecondary" class="u-unfold mt-2" aria-labelledby="dropdownSecondaryInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+
+            <div class="d-lg-inline-block position-relative">
+              <button id="dropdownSuccessInvoker" class="btn btn-success" type="button"
+                      aria-controls="dropdownSuccess"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-unfold-event="click"
+                      data-unfold-target="#dropdownSuccess"
+                      data-unfold-type="css-animation"
+                      data-unfold-duration="300"
+                      data-unfold-delay="300"
+                      data-unfold-hide-on-scroll="true"
+                      data-unfold-animation-in="slideInUp"
+                      data-unfold-animation-out="fadeOut">
+                Success
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </button>
+
+              <div id="dropdownSuccess" class="u-unfold mt-2" aria-labelledby="dropdownSuccessInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+
+            <div class="d-lg-inline-block position-relative">
+              <button id="dropdownInfoInvoker" class="btn btn-info" type="button"
+                      aria-controls="dropdownInfo"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-unfold-event="click"
+                      data-unfold-target="#dropdownInfo"
+                      data-unfold-type="css-animation"
+                      data-unfold-duration="300"
+                      data-unfold-delay="300"
+                      data-unfold-hide-on-scroll="true"
+                      data-unfold-animation-in="slideInUp"
+                      data-unfold-animation-out="fadeOut">
+                Info
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </button>
+
+              <div id="dropdownInfo" class="u-unfold mt-2" aria-labelledby="dropdownInfoInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+
+            <div class="d-lg-inline-block position-relative">
+              <button id="dropdownWarningInvoker" class="btn btn-warning" type="button"
+                      aria-controls="dropdownWarning"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-unfold-event="click"
+                      data-unfold-target="#dropdownWarning"
+                      data-unfold-type="css-animation"
+                      data-unfold-duration="300"
+                      data-unfold-delay="300"
+                      data-unfold-hide-on-scroll="true"
+                      data-unfold-animation-in="slideInUp"
+                      data-unfold-animation-out="fadeOut">
+                Warning
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </button>
+
+              <div id="dropdownWarning" class="u-unfold mt-2" aria-labelledby="dropdownWarningInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+
+            <div class="d-lg-inline-block position-relative">
+              <button id="dropdownDangerInvoker" class="btn btn-danger" type="button"
+                      aria-controls="dropdownDanger"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-unfold-event="click"
+                      data-unfold-target="#dropdownDanger"
+                      data-unfold-type="css-animation"
+                      data-unfold-duration="300"
+                      data-unfold-delay="300"
+                      data-unfold-hide-on-scroll="true"
+                      data-unfold-animation-in="slideInUp"
+                      data-unfold-animation-out="fadeOut">
+                Danger
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </button>
+
+              <div id="dropdownDanger" class="u-unfold mt-2" aria-labelledby="dropdownDangerInvoker">
+                <a class="u-list__link" href="#">One</a>
+                <a class="u-list__link" href="#">Two</a>
+                <a class="u-list__link" href="#">Three</a>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="position-relative"&gt;
+                &lt;button id="dropdownPrimaryInvoker" class="btn btn-primary" type="button"
+                        aria-controls="dropdownPrimary"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        data-unfold-event="click"
+                        data-unfold-target="#dropdownPrimary"
+                        data-unfold-type="css-animation"
+                        data-unfold-duration="300"
+                        data-unfold-delay="300"
+                        data-unfold-hide-on-scroll="true"
+                        data-unfold-animation-in="slideInUp"
+                        data-unfold-animation-out="fadeOut"&gt;
+                  Primary
+                  &lt;span class="fa fa-angle-down u-unfold__icon-pointer"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+
+                &lt;div id="dropdownPrimary" class="u-unfold mt-2" aria-labelledby="dropdownPrimaryInvoker"&gt;
+                  &lt;a class="u-list__link" href="#"&gt;One&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Two&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Three&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="sidebar" class="mb-9">
+          <h2 class="h4">Sidebar <a class="anchorjs-link" href="#sidebar" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <p>By default, Front <code class="highlighter-rouge">.u-sidebar</code> is right positioned. To left position the sidebar, add <code class="highlighter-rouge">.u-sidebar--left</code> modifier class to a parent, which also repositions the box-shadow style from right to left, and change the animation options <code class="highlighter-rouge">data-unfold-animation-in=""</code> along with <code class="highlighter-rouge">data-unfold-animation-out=""</code> from right to left. For example, <code class="highlighter-rouge">data-unfold-animation-in="fadeInLeft"</code>.</p>
+
+          <div class="fd-example">
+            <a id="sidebarBasicUsageInvoker" class="btn btn-xs u-btn--icon u-btn-text-secondary u-sidebar__toggler" href="javascript:;" role="button"
+               aria-controls="sidebarBasicUsage"
+               aria-haspopup="true"
+               aria-expanded="false"
+               data-unfold-event="click"
+               data-unfold-hide-on-scroll="false"
+               data-unfold-target="#sidebarBasicUsage"
+               data-unfold-type="css-animation"
+               data-unfold-animation-in="fadeInRight"
+               data-unfold-animation-out="fadeOutRight"
+               data-unfold-duration="500">
+              <span class="fa fa-user-circle u-btn--icon__inner font-size-14"></span>
+            </a>
+
+            <aside id="sidebarBasicUsage" class="u-sidebar u-unfold--css-animation u-unfold--hidden" aria-labelledby="sidebarBasicUsageInvoker">
+              <div class="u-sidebar__scroller">
+                <div class="u-sidebar__container">
+                  <div class="u-header-sidebar__footer-offset">
+                    <div class="d-flex align-items-center pt-4 px-7">
+                      <button type="button" class="close ml-auto"
+                              aria-controls="sidebarBasicUsage"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              data-unfold-event="click"
+                              data-unfold-hide-on-scroll="false"
+                              data-unfold-target="#sidebarBasicUsage"
+                              data-unfold-type="css-animation"
+                              data-unfold-animation-in="fadeInRight"
+                              data-unfold-animation-out="fadeOutRight"
+                              data-unfold-duration="500">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+
+                    <div class="js-scrollbar u-sidebar__body">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-html" data-lang="html">
+                &lt;!-- Toggle --&gt;
+                &lt;a id="sidebarBasicUsageInvoker" class="btn btn-xs u-btn--icon u-btn-text-secondary u-sidebar__toggler" href="javascript:;" role="button"
+                   aria-controls="sidebarBasicUsage"
+                   aria-haspopup="true"
+                   aria-expanded="false"
+                   data-unfold-event="click"
+                   data-unfold-hide-on-scroll="false"
+                   data-unfold-target="#sidebarBasicUsage"
+                   data-unfold-type="css-animation"
+                   data-unfold-animation-in="fadeInRight"
+                   data-unfold-animation-out="fadeOutRight"
+                   data-unfold-duration="500"&gt;
+                  &lt;span class="fa fa-user-circle u-btn--icon__inner font-size-14"&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;!-- End Toggle --&gt;
+
+                &lt;!-- Sidebar Content --&gt;
+                &lt;aside id="sidebarBasicUsage" class="u-sidebar u-unfold--css-animation u-unfold--hidden" aria-labelledby="sidebarBasicUsageInvoker"&gt;
+                  &lt;div class="u-sidebar__scroller"&gt;
+                    &lt;div class="u-sidebar__container"&gt;
+                      &lt;div class="u-header-sidebar__footer-offset"&gt;
+                        &lt;div class="d-flex align-items-center pt-4 px-7"&gt;
+                          &lt;button type="button" class="close ml-auto"
+                                  aria-controls="sidebarBasicUsage"
+                                  aria-haspopup="true"
+                                  aria-expanded="false"
+                                  data-unfold-event="click"
+                                  data-unfold-hide-on-scroll="false"
+                                  data-unfold-target="#sidebarBasicUsage"
+                                  data-unfold-type="css-animation"
+                                  data-unfold-animation-in="fadeInRight"
+                                  data-unfold-animation-out="fadeOutRight"
+                                  data-unfold-duration="500"&gt;
+                            &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="js-scrollbar u-sidebar__body"&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/aside&gt;
+                &lt;!-- End Sidebar Content --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                // initialization of unfold component
+                $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
+                  afterOpen: function () {
+                    // Helper function for accordions in hidden block
+                    $('#headerSidebarList .u-header-collapse__nav-pointer').on('click', function (e) {
+                      e.preventDefault();
+
+                      var target = $(this).attr('href');
+
+                      $('#headerSidebarList .u-header-collapse__submenu-list').collapse('hide');
+                      $(target).collapse('show');
+                    });
+                  },
+                  beforeClose: function () {
+                    $('#hamburgerTrigger').removeClass('is-active');
+                  }
+                });
+
+                $('#sidebarHeaderInvoker').on('click', function(e) {
+                  $('#headerSidebarList .collapse').collapse('hide');
+                });
+
+                $('#sidebarHeader .close').on('click', function(e) {
+                  $('#headerSidebarList .collapse').collapse('hide');
+                  $('#hamburgerTrigger').removeClass('is-active');
+                });
+
+                $(document).on('keydown', function (e) {
+                  if (e.keyCode && e.keyCode === 27) {
+                    $('#headerSidebarList .collapse').collapse('hide');
+                  }
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="js-behavior" class="mb-4">
+          <h2 class="h4">JavaScript behavior <a class="anchorjs-link" href="#js-behavior" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="callbacks" class="mb-9">
+          <h2 class="h4">Callbacks <a class="anchorjs-link" href="#callbacks" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <pre>
+            <code class="language-js" data-lang="js">
+              afterOpen: function (invoker) {} - function
+              afterClose: function (invoker) {} - function
+            </code>
+          </pre>
+        </div>
+
+        <div id="methods" class="mb-9">
+          <h2 class="h4">Methods <a class="anchorjs-link" href="#methods" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-unfold-type=""</code>.</p>
+
+          <div class="fd-example">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Attributes</th>
+                  <th>Description</th>
+                  <th>Default value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-type</code></p>
+                  </td>
+                  <td>
+                    Show/hide effect.
+                    <br>
+                    If <code class="highlighter-rouge">data-unfold-type=""</code> is set to <code class="highlighter-rouge">jquery-slide</code>, the jQuery <code class="highlighter-rouge">slideDown</code> effect will be applied to the opening and <code class="highlighter-rouge">slideUp</code> to the close.
+                    If <code class="highlighter-rouge">data-unfold-type=""</code> is set to <code class="highlighter-rouge">css-animation</code>, then any effect from the library <code class="highlighter-rouge">animate.css</code> can be used.
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-target</code></p>
+                  </td>
+                  <td>Accepts the ID of the hidden element as a parameter.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-event</code></p>
+                  </td>
+                  <td>
+                    Defines by what event the script will fire. Valid values are:
+
+                    <ul>
+                      <li>hover</li>
+                      <li>click</li>
+                    </ul>
+                  </td>
+                  <td>click</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-duration</code></p>
+                  </td>
+                  <td>Specifies the duration of the animation.</td>
+                  <td>300</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-easing</code></p>
+                  </td>
+                  <td>
+                    Determines the smoothness of the animation, if <code class="highlighter-rouge">data-unfold-type=""</code> is set to <code class="highlighter-rouge">jquery-slide</code>
+
+                    <ul class="mb-4">
+                      <li><code class="highlighter-rouge">linear</code></li>
+                      <li><code class="highlighter-rouge">swing</code></li>
+                    </ul>
+
+                    <code class="highlighter-rouge">jquery.easing.min.js</code> plugin is required to extend the plugin.
+
+                    <h4 class="h6 mt-3">Additional values:</h4>
+                    <ul class="mb-4">
+                      <li><code class="highlighter-rouge">easeInQuad</code></li>
+                      <li><code class="highlighter-rouge">easeOutQuad</code></li>
+                      <li><code class="highlighter-rouge">easeInOutQuad</code></li>
+                      <li><code class="highlighter-rouge">easeInCubic</code></li>
+                      <li><code class="highlighter-rouge">easeOutCubic</code></li>
+                      <li><code class="highlighter-rouge">easeInOutCubic</code></li>
+                      <li><code class="highlighter-rouge">easeInQuart</code></li>
+                      <li><code class="highlighter-rouge">easeOutQuart</code></li>
+                      <li><code class="highlighter-rouge">easeInOutQuart</code></li>
+                      <li><code class="highlighter-rouge">easeInQuint</code></li>
+                      <li><code class="highlighter-rouge">easeOutQuint</code></li>
+                      <li><code class="highlighter-rouge">easeInOutQuint</code></li>
+                      <li><code class="highlighter-rouge">easeInSine</code></li>
+                      <li><code class="highlighter-rouge">easeOutSine</code></li>
+                      <li><code class="highlighter-rouge">easeInOutSine</code></li>
+                      <li><code class="highlighter-rouge">easeInExpo</code></li>
+                      <li><code class="highlighter-rouge">easeOutExpo</code></li>
+                      <li><code class="highlighter-rouge">easeInOutExpo</code></li>
+                      <li><code class="highlighter-rouge">easeInCirc</code></li>
+                      <li><code class="highlighter-rouge">easeOutCirc</code></li>
+                      <li><code class="highlighter-rouge">easeInOutCirc</code></li>
+                      <li><code class="highlighter-rouge">easeInElastic</code></li>
+                      <li><code class="highlighter-rouge">easeOutElastic</code></li>
+                      <li><code class="highlighter-rouge">easeInOutElastic</code></li>
+                      <li><code class="highlighter-rouge">easeInBack</code></li>
+                      <li><code class="highlighter-rouge">easeOutBack</code></li>
+                      <li><code class="highlighter-rouge">easeInOutBack</code></li>
+                      <li><code class="highlighter-rouge">easeInBounce</code></li>
+                      <li><code class="highlighter-rouge">easeOutBounce</code></li>
+                      <li><code class="highlighter-rouge">easeInOutBounce</code></li>
+                    </ul>
+
+                  </td>
+                  <td>linear</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-delay</code></p>
+                  </td>
+                  <td>Specifies the animation delay.</td>
+                  <td>350</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-animation-in</code></p>
+                  </td>
+                  <td>Revealing animation effect, if <code class="highlighter-rouge">data-unfold-type=""</code> is set to <code class="highlighter-rouge">css-animation</code>. <br> To run the script, you must additionally link <code class="highlighter-rouge">animate.css</code> <br> All available animation values, can be found <a href="https://daneden.github.io/animate.css/">here</a></td>
+                  <td>fadeIn</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-animation-out</code></p>
+                  </td>
+                  <td>Disappearing animation effect, if <code class="highlighter-rouge">data-unfold-type=""</code> is set to <code class="highlighter-rouge">css-animation</code>. <br> To run the script, you must additionally link <code class="highlighter-rouge">animate.css</code> <br> All available animation values, can be found <a href="https://daneden.github.io/animate.css/">here</a></td>
+                  <td>fadeOut</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-hide-on-scroll</code></p>
+                  </td>
+                  <td>If <code class="highlighter-rouge">true</code>, enables hiding the content on scroll.</td>
+                  <td>true</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-unfold-hide-on-blur</code></p>
+                  </td>
+                  <td>If <code class="highlighter-rouge">true</code>, enables hiding the content with blur effect.</td>
+                  <td>false</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">afterOpen: function (invoker) {}</code></p>
+                  </td>
+                  <td>Executes the code inside the body of the function each time it is opened.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">afterClose: function (invoker) {}</code></p>
+                  </td>
+                  <td>Executes the code inside the body of the function each time it is closed.</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of unfold component
+      $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
+        afterOpen: function () {
+          // Helper function for accordions in hidden block
+          $('#headerSidebarList .u-header-collapse__nav-pointer').on('click', function (e) {
+            e.preventDefault();
+
+            var target = $(this).attr('href');
+
+            $('#headerSidebarList .u-header-collapse__submenu-list').collapse('hide');
+            $(target).collapse('show');
+          });
+        },
+        beforeClose: function () {
+          $('#hamburgerTrigger').removeClass('is-active');
+        }
+      });
+
+      $('#sidebarHeaderInvoker').on('click', function(e) {
+        $('#headerSidebarList .collapse').collapse('hide');
+      });
+
+      $('#sidebarHeader .close').on('click', function(e) {
+        $('#headerSidebarList .collapse').collapse('hide');
+        $('#hamburgerTrigger').removeClass('is-active');
+      });
+
+      $(document).on('keydown', function (e) {
+        if (e.keyCode && e.keyCode === 27) {
+          $('#headerSidebarList .collapse').collapse('hide');
+        }
+      });
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

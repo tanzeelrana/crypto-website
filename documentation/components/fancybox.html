@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>FancyBox - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a class="active" href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active"><a href="#how-to-use">How to use?</a></li>
+          <li class="fd-toc-entry"><a href="#basic-example">Basic example</a></li>
+          <li class="fd-toc-entry">
+            <a href="#js-behavior">JavaScript behavior</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#methods">Methods</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">FancyBox</h1>
+          <p class="lead font-weight-normal">FancyBox offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages.</p>
+        </div>
+
+        <div id="how-to-use" class="mb-9">
+          <h2 class="h4">How to use? <a class="anchorjs-link" href="#how-to-use" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Wrap any block in a parent element with an ID or class and add the same ID or the class in the JS init function of the plugin, include the <code class="highlighter-rouge">data-src=""</code> attribute to with the image which should be opened in a lightbox.</p>
+
+          <p>Copy-paste the stylesheet <code class="highlighter-rouge">&lt;link&gt;</code> into your <code class="highlighter-rouge">&lt;head&gt;</code> to load the CSS.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css"&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Implementing Plugins</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/vendor/fancybox/jquery.fancybox.min.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Front</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/js/components/hs.fancybox.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of popups
+                  $.HSCore.components.HSPopup.init('.js-fancybox');
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="basic-example" class="mb-9">
+          <h2 class="h4">Basic example <a class="anchorjs-link" href="#basic-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="row">
+              <div class="col-4 mb-3">
+                <a class="js-fancybox u-media-viewer" href="javascript:;"
+                   data-src="../assets/img/img41-lg.jpg"
+                   data-fancybox="lightbox-gallery-hidden"
+                   data-caption="Front in frames - image #01"
+                   data-speed="700">
+                  <img class="img-fluid rounded" src="../assets/img/img41.jpg" alt="Image Description">
+
+                  <span class="u-media-viewer__container">
+                    <span class="u-media-viewer__icon">
+                      <span class="fa fa-plus u-media-viewer__icon-inner"></span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+
+              <div class="col-4 mb-3">
+                <a class="js-fancybox u-media-viewer" href="javascript:;"
+                   data-src="../assets/img/img42-lg.jpg"
+                   data-fancybox="lightbox-gallery-hidden"
+                   data-caption="Front in frames - image #02"
+                   data-speed="700">
+                  <img class="img-fluid rounded" src="../assets/img/img42.jpg" alt="Image Description">
+
+                  <span class="u-media-viewer__container">
+                    <span class="u-media-viewer__icon">
+                      <span class="fa fa-plus u-media-viewer__icon-inner"></span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+
+              <div class="col-4 mb-3">
+                <a class="js-fancybox u-media-viewer" href="javascript:;"
+                   data-src="../assets/img/img43-lg.jpg"
+                   data-fancybox="lightbox-gallery-hidden"
+                   data-caption="Front in frames - image #03"
+                   data-speed="700">
+                  <img class="img-fluid rounded" src="../assets/img/img43.jpg" alt="Image Description">
+
+                  <span class="u-media-viewer__container">
+                    <span class="u-media-viewer__icon">
+                      <span class="fa fa-plus u-media-viewer__icon-inner"></span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-html" data-lang="html">
+                &lt;div class="row"&gt;
+                  &lt;div class="col-4 mb-3"&gt;
+                    &lt;a class="js-fancybox u-media-viewer" href="javascript:;"
+                       data-src="../../assets/img/1920x1080/img10.jpg"
+                       data-fancybox="lightbox-gallery-hidden"
+                       data-caption="Front in frames - image #01"
+                       data-speed="700"&gt;
+                      &lt;img class="img-fluid rounded" src="../../assets/img/480x320/img2.jpg" alt="Image Description"&gt;
+
+                      &lt;span class="u-media-viewer__container"&gt;
+                        &lt;span class="u-media-viewer__icon"&gt;
+                          &lt;span class="fa fa-plus u-media-viewer__icon-inner"&gt;&lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/a&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class="col-4 mb-3"&gt;
+                    &lt;a class="js-fancybox u-media-viewer" href="javascript:;"
+                       data-src="../../assets/img/1920x1080/img13.jpg"
+                       data-fancybox="lightbox-gallery-hidden"
+                       data-caption="Front in frames - image #02"
+                       data-speed="700"&gt;
+                      &lt;img class="img-fluid rounded" src="../../assets/img/480x320/img4.jpg" alt="Image Description"&gt;
+
+                      &lt;span class="u-media-viewer__container"&gt;
+                        &lt;span class="u-media-viewer__icon"&gt;
+                          &lt;span class="fa fa-plus u-media-viewer__icon-inner"&gt;&lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/a&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class="col-4 mb-3"&gt;
+                    &lt;a class="js-fancybox u-media-viewer" href="javascript:;"
+                       data-src="../../assets/img/1920x1080/img14.jpg"
+                       data-fancybox="lightbox-gallery-hidden"
+                       data-caption="Front in frames - image #03"
+                       data-speed="700"&gt;
+                      &lt;img class="img-fluid rounded" src="../../assets/img/480x320/img5.jpg" alt="Image Description"&gt;
+
+                      &lt;span class="u-media-viewer__container"&gt;
+                        &lt;span class="u-media-viewer__icon"&gt;
+                          &lt;span class="fa fa-plus u-media-viewer__icon-inner"&gt;&lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/a&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div id="js-behavior" class="mb-4">
+          <h2 class="h4">JavaScript behavior <a class="anchorjs-link" href="#js-behavior" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="methods" class="mb-9">
+          <h2 class="h4">Methods <a class="anchorjs-link" href="#methods" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-fancybox=""</code>.</p>
+
+          <div class="fd-example">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 25%;">Attribute</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-fancybox</code></p>
+                  </td>
+                  <td>Defines a group of images united in one gallery.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-caption</code></p>
+                  </td>
+                  <td>The title of the image.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-type</code></p>
+                  </td>
+                  <td>
+                    The type of content that will be uploaded to the page. Valid values are:
+
+                    <ul>
+                      <li><code class="highlighter-rouge">inline</code> - if <code class="highlighter-rouge">true</code>, loads the content from the hidden block whose ID is specified in the <code class="highlighter-rouge">data-src</code> attribute.</li>
+                      <li><code class="highlighter-rouge">image</code> - if <code class="highlighter-rouge">true</code>, loads the image, the path to which is specified in the attribute <code class="highlighter-rouge">data-src</code> or <code class="highlighter-rouge">data-srcset</code>.</li>
+                      <li><code class="highlighter-rouge">iframe</code> - if <code class="highlighter-rouge">true</code>, loads video, google maps, third-party players, etc., the path to which is specified in the <code class="highlighter-rouge">data-src</code>.</li>
+                      <li><code class="highlighter-rouge">ajax</code> - if <code class="highlighter-rouge">true</code>, loads the content from the file specified in the attribute <code class="highlighter-rouge">data-src</code>.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-width</code></p>
+                  </td>
+                  <td>You must specify the original width of the image, while loading the image, the quality improves as you download from the server. This effect of image loading can be seen on the Apple website.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-height</code></p>
+                  </td>
+                  <td>You must specify the initial height of the image, while loading the image, the quality improves as you download from the server. This effect of image loading can be seen on the Apple website.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-src</code></p>
+                  </td>
+                  <td>Path to the image, video, uploaded content or hidden block ID.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-filter</code></p>
+                  </td>
+                  <td>If <code class="highlighter-rouge">data-type=""</code> is set to <code class="highlighter-rouge">ajax</code>, the value of the attribute is passed the ID of a particular block from the page being paged, as a result only this block will be loaded, not the whole page.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-options</code></p>
+                  </td>
+                  <td>Transmits the object with the settings, which allows you to specify the standard plug-in settings in one attribute.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-animate-in</code></p>
+                  </td>
+                  <td>Appearing effect of the popup</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-animate-out</code></p>
+                  </td>
+                  <td>Disappearing effect of the popup</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-speed</code></p>
+                  </td>
+                  <td>Opening speed of the pop.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-slideshow-speed</code></p>
+                  </td>
+                  <td>The speed of the slide show inside the popup.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-overlay-blur-bg</code></p>
+                  </td>
+                  <td>Includes background blur effect.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-overlay-bg</code></p>
+                  </td>
+                  <td>Color of the overlay.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-infinite</code></p>
+                  </td>
+                  <td>If <code class="highlighter-rouge">true</code>, then turns on the function of infinite scrolling of the slides (in a loop).</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../../assets/js/components/hs.fancybox.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of fancybox
+      $.HSCore.components.HSFancyBox.init('.js-fancybox');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

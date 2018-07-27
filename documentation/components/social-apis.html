@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Social APIs - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+
+  <!-- Facebook Metatags -->
+  <meta property="og:url" content="http://localhost:8080">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Front">
+  <meta property="og:description" content="Your description">
+</head>
+
+<body>
+  <!-- Facebook Library & init. -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '211814435920978',
+        xfbml: true,
+        version: 'v2.8'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Twitter Library -->
+  <script src="//platform.twitter.com/widgets.js" charset="utf-8" async></script>
+
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a class="active" href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active">
+            <a href="#instagram">Instagram</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#how-to-use-instagram">How to use Instagram?</a></li>
+              <li class="fd-toc-entry"><a href="#basic-example">Basic example</a></li>
+              <li class="fd-toc-entry">
+                <a href="#js-behavior">JavaScript behavior</a>
+                <ul>
+                  <li class="fd-toc-entry"><a href="#objects">Objects</a></li>
+                  <li class="fd-toc-entry"><a href="#callbacks">Callbacks</a></li>
+                  <li class="fd-toc-entry"><a href="#methods">Methods</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="fd-toc-entry">
+            <a href="#facebook">Facebook</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#how-to-use-facebook">How to use Facebook?</a></li>
+              <li class="fd-toc-entry">
+                <a href="#facebook-examples">Examples</a>
+                <ul>
+                  <li class="fd-toc-entry"><a href="#page">Page</a></li>
+                  <li class="fd-toc-entry"><a href="#comments">Comments</a></li>
+                  <li class="fd-toc-entry"><a href="#post">Post</a></li>
+                  <li class="fd-toc-entry"><a href="#video">Video</a></li>
+                  <li class="fd-toc-entry"><a href="#like-button">Like button</a></li>
+                  <li class="fd-toc-entry"><a href="#share">Share</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="fd-toc-entry">
+            <a href="#twitter">Twitter</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#how-to-use-twitte">How to use Twitte?</a></li>
+              <li class="fd-toc-entry">
+                <a href="#twitter-examples">Examples</a>
+                <ul>
+                  <li class="fd-toc-entry"><a href="#timeline">Page</a></li>
+                  <li class="fd-toc-entry"><a href="#card">Card</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Social APIs</h1>
+          <p class="lead font-weight-normal">Showcase top Social APIs including APIs from Facebook, Twitter, Instagram and others.</p>
+        </div>
+
+        <div id="instagram" class="mb-9">
+          <h2 class="h4">Instagram <a class="anchorjs-link" href="#instagram" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="how-to-use-instagram" class="mb-9">
+          <h2 class="h4">How to use Instagram? <a class="anchorjs-link" href="#how-to-use-instagram" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Wrap any block in a parent element with an ID or class and add the same ID in the JS init function of the <code class="highlighter-rouge">hs.instagram.js</code> plugin and include the <code class="highlighter-rouge">data-user-id</code>, <code class="highlighter-rouge">data-client-id</code> and <code class="highlighter-rouge">data-token</code> data attributes.</p>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Implementing Plugins</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/vendor/instafeed.js/instafeed.min.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Front</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/js/helpers/hs.instagram.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of instagram api
+                  $.HSCore.components.HSInstagram.init('#instaFeed', {
+                    resolution: 'standard_resolution',
+                    after: function () {
+                      // initialization of masonry.js
+                      var $grid = $('.js-instagram').masonry({
+                        percentPosition: true
+                      });
+
+                      // initialization of images loaded
+                      $grid.imagesLoaded().progress(function () {
+                        $grid.masonry();
+                      });
+                    }
+                  });
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="basic-example" class="mb-9">
+          <h2 class="h4">Basic example <a class="anchorjs-link" href="#basic-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div id="instaFeed" class="js-instagram row mx-gutters-2"
+                 data-user-id="4815936096"
+                 data-client-id="60648b9247324e87a4d7ab3aa7a58f6c"
+                 data-token="4815936096.1677ed0.1cbcaacad4de4ffa96aa15ec76e0e5ce"
+                 data-limit="4"
+                 data-template='<div class="col-md-3 mb-3 mb-sm-0"><a href="{{link}}" target="_blank"><img class="img-fluid w-100 rounded" src="{{image}}" /></a></div>'></div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div id="instaFeed" class="js-instagram row mx-gutters-2"
+                   data-user-id="4815936096"
+                   data-client-id="60648b9247324e87a4d7ab3aa7a58f6c"
+                   data-token="4815936096.1677ed0.1cbcaacad4de4ffa96aa15ec76e0e5ce"
+                   data-limit="4"
+                   data-template='&lt;div class="col-md-3 mb-3 mb-sm-0"&gt;&lt;a href="{{link}}" target="_blank"&gt;&lt;img class="img-fluid w-100 rounded" src="{{image}}" /&gt;&lt;/a&gt;&lt;/div&gt;'&gt;&lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="js-behavior" class="mb-4">
+          <h2 class="h4">JavaScript behavior <a class="anchorjs-link" href="#js-behavior" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="objects" class="mb-9">
+          <h2 class="h4">Objects <a class="anchorjs-link" href="#objects" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Quality of the images.</p>
+
+          <pre>
+            <code class="language-js" data-lang="js">
+              resolution: 'standard_resolution' - string
+            </code>
+          </pre>
+
+          <p>Valid values are:</p>
+          <ul>
+            <li><code class="highlighter-rouge">thumbnail</code> (150x150)</li>
+            <li><code class="highlighter-rouge">low_resolution</code> (306x306)</li>
+            <li><code class="highlighter-rouge">standard_resolution</code> (612x612)</li>
+          </ul>
+
+          <p>Default value is: <code class="highlighter-rouge">thumbnail</code></p>
+        </div>
+
+        <div id="callbacks" class="mb-9">
+          <h2 class="h4">Callbacks <a class="anchorjs-link" href="#callbacks" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <pre>
+            <code class="language-js" data-lang="js">
+              before: function (invoker) {} - function
+              after: function (invoker) {} - function
+              success: function (invoker) {} - function
+              error: function (invoker) {} - function
+            </code>
+          </pre>
+        </div>
+
+        <div id="methods" class="mb-9">
+          <h2 class="h4">Methods <a class="anchorjs-link" href="#methods" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-user-id=""</code>.</p>
+
+          <div class="fd-example">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Attributes</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-user-id</code></p>
+                  </td>
+                  <td>A unique user ID. Use if <code class="highlighter-rouge">data-get</code> is set <code class="highlighter-rouge">true</code>.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-get</code></p>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-client-id</code></p>
+                  </td>
+                  <td>An ID obtained with the Instagram API. <strong class="text-dark">Required!</strong>.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-token</code></p>
+                  </td>
+                  <td>A valid oAuth token. Can be used in place of <code class="highlighter-rouge">/</code> along with the user ID.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-get</code></p>
+                  </td>
+                  <td>
+                    Determines which type of images to output.<br>Valid values are:
+                    <ul>
+                      <li><code class="highlighter-rouge">user</code></li>
+                      <li><code class="highlighter-rouge">popular</code></li>
+                      <li><code class="highlighter-rouge">tagged</code></li>
+                      <li><code class="highlighter-rouge">location</code></li>
+                    </ul>
+                    Default value is <code class="highlighter-rouge">user</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-limit</code></p>
+                  </td>
+                  <td>Specifies the limit on the number of output images.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-template</code></p>
+                  </td>
+                  <td>A template element.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">afterShow: function (invoker) {}</code></p>
+                  </td>
+                  <td>Executes the code inside the body of the function each time it appears.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">beforeShow: function (invoker) {}</code></p>
+                  </td>
+                  <td>Executes the code inside the body of the function each time it appears.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">success: function (invoker) {}</code></p>
+                  </td>
+                  <td>Executes the code inside the body of the function if the plugin received the data.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">error: function (invoker) {}</code></p>
+                  </td>
+                  <td>Executes the code inside the body if the images could not be loaded.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="facebook" class="mb-9">
+          <h2 class="h4">Facebook <a class="anchorjs-link" href="#facebook" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>All Facebook components and documentation can be found on the <a href="https://developers.facebook.com/docs/plugins">Facebook for developers</a> site.</p>
+        </div>
+
+        <div id="how-to-use-facebook" class="mb-9">
+          <h2 class="h4">How to use Facebook? <a class="anchorjs-link" href="#how-to-use-facebook" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <p>Include these metatags right before <code class="highlighter-rouge">&lt;head&gt;</code> tag is closed.</p>
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;head&gt;
+                &lt;meta property="og:url" content="http://localhost:8080"&gt;
+                &lt;meta property="og:type" content="website"&gt;
+                &lt;meta property="og:title" content="Front"&gt;
+                &lt;meta property="og:description" content="Your description"&gt;
+              &lt;/head&gt;
+            </code>
+          </pre>
+
+          <p>Include this script right after open <code class="highlighter-rouge">&lt;body&gt;</code> tag.</p>
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;body&gt;
+                &lt;script&gt;
+                  window.fbAsyncInit = function () {
+                    FB.init({
+                      appId: '211814435920978',
+                      xfbml: true,
+                      version: 'v2.8'
+                    });
+                  };
+
+                  (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {
+                      return;
+                    }
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));
+                &lt;/script&gt;
+              &lt;/body&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="facebook-examples" class="mb-5">
+          <h2 class="h4">Examples <a class="anchorjs-link" href="#facebook-examples" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="page" class="mb-9">
+          <h2 class="h4">Page <a class="anchorjs-link" href="#page" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="fb-page"
+                 data-href="https://www.facebook.com/htmlstream"
+                 data-tabs="timeline"
+                 data-width="500"
+                 data-height="500">
+              <blockquote cite="https://www.facebook.com/unify2dev" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/unify2dev">Facebook</a>
+              </blockquote>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="fb-page"
+                   data-href="https://www.facebook.com/htmlstream"
+                   data-tabs="timeline"
+                   data-width="500"
+                   data-height="500"&gt;
+                &lt;blockquote cite="https://www.facebook.com/unify2dev" class="fb-xfbml-parse-ignore"&gt;
+                  &lt;a href="https://www.facebook.com/unify2dev"&gt;Facebook&lt;/a&gt;
+                &lt;/blockquote&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="comments" class="mb-9">
+          <h2 class="h4">Comments <a class="anchorjs-link" href="#comments" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="fb-comments"
+                 data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&reply_comment_id=654912701278942"
+                 data-numposts="2"
+                 data-width="100%"></div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="fb-comments"
+                   data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&reply_comment_id=654912701278942"
+                   data-numposts="2"
+                   data-width="100%"&gt;&lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="post" class="mb-9">
+          <h2 class="h4">Post <a class="anchorjs-link" href="#post" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="fb-post"
+                 data-href="https://www.facebook.com/20531316728/posts/10154009990506729"></div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="fb-post"
+                   data-href="https://www.facebook.com/20531316728/posts/10154009990506729"&gt;&lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="video" class="mb-9">
+          <h2 class="h4">Video <a class="anchorjs-link" href="#video" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="fb-video"
+                 data-href="https://www.facebook.com/facebook/videos/10153231379946729/"
+                 data-width="500"
+                 data-show-text="false">
+              <blockquote cite="https://www.facebook.com/facebook/videos/10153231379946729/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/facebook/videos/10153231379946729/">How to Share With Just Friends</a>
+                <p>How to share with just friends.</p>Posted by
+                <a href="https://www.facebook.com/facebook/">Facebook</a>
+                on Friday, 1 January 2018
+              </blockquote>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="fb-video"
+                   data-href="https://www.facebook.com/facebook/videos/10153231379946729/"
+                   data-width="500"
+                   data-show-text="false"&gt;
+                &lt;blockquote cite="https://www.facebook.com/facebook/videos/10153231379946729/" class="fb-xfbml-parse-ignore"&gt;
+                  &lt;a href="https://www.facebook.com/facebook/videos/10153231379946729/"&gt;How to Share With Just Friends&lt;/a&gt;
+                  &lt;p&gt;How to share with just friends.&lt;/p&gt;Posted by
+                  &lt;a href="https://www.facebook.com/facebook/"&gt;Facebook&lt;/a&gt;
+                  on Friday, 1 January 2018
+                &lt;/blockquote&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="like-button" class="mb-9">
+          <h2 class="h4">Like button <a class="anchorjs-link" href="#like-button" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="fb-like"></div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="fb-like"&gt;&lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="share" class="mb-9">
+          <h2 class="h4">Share <a class="anchorjs-link" href="#share" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="fb-share-button"
+                 data-href="https://developers.facebook.com/docs/plugins/"
+                 data-layout="button_count"
+                 data-size="small"
+                 data-mobile-iframe="true">
+              <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="fb-share-button"
+                   data-href="https://developers.facebook.com/docs/plugins/"
+                   data-layout="button_count"
+                   data-size="small"
+                   data-mobile-iframe="true"&gt;
+                &lt;a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"&gt;Share&lt;/a&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="twitter" class="mb-9">
+          <h2 class="h4">Twitter <a class="anchorjs-link" href="#twitter" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>All Twitter components and documentation can be found on the <a href="https://dev.twitter.com/web/overview">Twitter developer documentation</a> site.</p>
+        </div>
+
+        <div id="how-to-use-twitter" class="mb-9">
+          <h2 class="h4">How to use Twitter? <a class="anchorjs-link" href="#how-to-use-twitter" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <p>Include this script right after open <code class="highlighter-rouge">&lt;body&gt;</code> tag.</p>
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;body&gt;
+                &lt;script src="//platform.twitter.com/widgets.js" charset="utf-8" async&gt;&lt;/script&gt;
+              &lt;/body&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="twitter-examples" class="mb-5">
+          <h2 class="h4">Examples <a class="anchorjs-link" href="#twitter-examples" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="timeline" class="mb-9">
+          <h2 class="h4">Timeline <a class="anchorjs-link" href="#timeline" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example w-md-50">
+            <div style="overflow: auto; height: 300px;">
+              <a class="twitter-timeline" href="https://twitter.com/htmlstream">Tweets by htmlstream</a>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div style="overflow: auto; height: 300px;"&gt;
+                &lt;a class="twitter-timeline" href="https://twitter.com/htmlstream"&gt;Tweets by htmlstream&lt;/a&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="card" class="mb-9">
+          <h2 class="h4">Card <a class="anchorjs-link" href="#card" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <blockquote class="twitter-tweet" data-lang="en-gb">
+              <a href="https://twitter.com/htmlstream/status/983501442173595648"></a>
+            </blockquote>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;blockquote class="twitter-tweet" data-lang="en-gb"&gt;
+                &lt;a href="https://twitter.com/htmlstream/status/983501442173595648"&gt;&lt;/a&gt;
+              &lt;/blockquote&gt;
+            </code>
+          </pre>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../../assets/vendor/instafeed.js/instafeed.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../../assets/js/components/hs.instagram.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of instagram api
+      $.HSCore.components.HSInstagram.init('#instaFeed', {
+        resolution: 'standard_resolution',
+        after: function () {
+          // initialization of masonry.js
+          var $grid = $('.js-instagram').masonry({
+            percentPosition: true
+          });
+
+          // initialization of images loaded
+          $grid.imagesLoaded().progress(function () {
+            $grid.masonry();
+          });
+        }
+      });
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

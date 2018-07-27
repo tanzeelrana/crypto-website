@@ -1,0 +1,65 @@
+/*------------------------------------
+  Height
+------------------------------------*/
+
+.height-40vh {
+	height: 40vh;
+}
+
+.height-60vh {
+	height: 60vh;
+}
+
+.min-height-100vh {
+	min-height: 100vh;
+}
+
+.min-height-20 {
+	@include px-to-rem(min-height, 20px);
+}
+
+.min-height-155 {
+	@include px-to-rem(min-height, 155px);
+}
+
+.min-height-300 {
+	@include px-to-rem(min-height, 300px);
+}
+
+.min-height-380 {
+	@include px-to-rem(min-height, 380px);
+}
+
+.min-height-450 {
+	@include px-to-rem(min-height, 450px);
+}
+
+.min-height-550 {
+	@include px-to-rem(min-height, 550px);
+}
+
+.min-height-600 {
+	@include px-to-rem(min-height, 600px);
+}
+
+.min-height-620 {
+	@include px-to-rem(min-height, 620px);
+}
+
+// Medium Devices
+@include media-breakpoint-up(md) {
+	.min-height-100vh--md {
+		min-height: 100vh;
+	}
+}
+
+// Large Devices
+@include media-breakpoint-up(lg) {
+	.min-height-auto--lg {
+		min-height: auto;
+	}
+
+	.min-height-100vh--lg {
+		min-height: 100vh;
+	}
+}

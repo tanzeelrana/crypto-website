@@ -1,0 +1,28 @@
+//
+// Header Floating
+//
+
+@mixin header-floating-breakpoints-up($hs-breakpoints) {
+  .u-header--floating--#{$hs-breakpoints} {
+  	@include absolute(right 0 left 0);
+    @include px-to-rem(margin-top, $g-header-floating-margin-top);
+
+    &__inner {
+      @include px-to-rem(border-radius, $g-header-floating-border-radius);
+      @include px-to-rem(padding-left, $g-header-floating-inner-paddingX);
+      @include px-to-rem(padding-right, $g-header-floating-inner-paddingX);
+    }
+  }
+}
+
+@mixin header-floating-breakpoints-down($hs-breakpoints) {
+  .u-header--floating--#{$hs-breakpoints} {
+  	background-color: $g-header-bg;
+    box-shadow: $g-header-box-shadow;
+
+    &__inner {
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+}

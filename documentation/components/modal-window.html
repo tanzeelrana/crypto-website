@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Modal Window - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../../assets/vendor/custombox/dist/custombox.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a class="active" href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active"><a href="#how-to-use">How to use?</a></li>
+          <li class="fd-toc-entry"><a href="#basic-example">Basic example</a></li>
+          <li class="fd-toc-entry"><a href="#animation-options">Animation options</a></li>
+          <li class="fd-toc-entry"><a href="#situation-options">Situation options</a></li>
+          <li class="fd-toc-entry">
+            <a href="#js-behavior">JavaScript behavior</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#methods">Methods</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Modal Window</h1>
+          <p class="lead font-weight-normal">Front uses third-party Custombox dialog plugin, so add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
+        </div>
+
+        <div id="how-to-use" class="mb-9">
+          <h2 class="h4">How to use? <a class="anchorjs-link" href="#how-to-use" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Wrap any block in a parent element with an ID or class and add the same ID in the JS init function of the <code class="highlighter-rouge">hs.modal-window.js</code> plugin.</p>
+
+          <p>Copy-paste the stylesheets <code class="highlighter-rouge">&lt;link&gt;</code> into your <code class="highlighter-rouge">&lt;head&gt;</code> to load the CSS.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/custombox/dist/custombox.min.css"&gt;
+              &lt;link rel="stylesheet" href="assets/vendor/animate.css"&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Implementing Plugins</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/vendor/custombox/dist/custombox.min.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Front</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/js/components/hs.modal-window.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                // initialization of autonomous popups
+                $.HSCore.components.HSModalWindow.init('.js-modal-window', {
+                  autonomous: true
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+
+          <div class="fd-callout fd-callout-warning">
+            <h3 id="load-animate.css-after-custom.css-file" class="h5">Load animate.css after custom.css file.</h3>
+
+            <p><code class="highlighter-rouge">custombox.css</code> includes its custom animations, and some of them are different than <a href="https://daneden.github.io/animate.css/">animate.css</a>. Therefore, it is advised to load <code class="highlighter-rouge">animate.css</code> file after <code class="highlighter-rouge">custombox.css</code>.</p>
+          </div>
+        </div>
+
+        <div id="basic-example" class="mb-9">
+          <h2 class="h4">Basic example <a class="anchorjs-link" href="#basic-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Below is a <em>static</em> modal example (meaning its <code class="highlighter-rouge">display</code> have been overridden).</p>
+
+          <div class="fd-example u-bg-light-blue-50">
+            <div class="js-modal-window d-block u-modal-window p-7">
+              <button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();">
+                <span class="fas fa-times"></span>
+              </button>
+
+              <div class="mb-7">
+                <h4 class="h2">Modal title</h4>
+                <p>Modal body text goes here.</p>
+              </div>
+
+              <button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;div class="js-modal-window d-block u-modal-window p-5"&gt;
+                &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();"&gt;
+                  &lt;span class="fas fa-times"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+
+                &lt;h5&gt;Modal title&lt;/h5&gt;
+
+                &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+
+                &lt;button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();"&gt;Close&lt;/button&gt;
+                &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="animation-options" class="mb-9">
+          <h2 class="h4">Animation options <a class="anchorjs-link" href="#animation-options" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Check out all available modal options with animations.</p>
+
+          <div class="fd-example">
+            <a class="btn btn-primary u-btn-primary mb-1" href="#animationModal"
+               data-modal-target="#animationModal"
+               data-modal-effect="fadein">
+              FadeIn
+            </a>
+
+            <a class="btn btn-primary u-btn-primary mb-1" href="#animationModal"
+               data-modal-target="#animationModal"
+               data-modal-effect="slide">
+              Slide
+            </a>
+
+            <a class="btn btn-primary u-btn-primary mb-1" href="#animationModal"
+               data-modal-target="#animationModal"
+               data-modal-effect="blur">
+              Blur
+            </a>
+
+            <!-- Modal -->
+            <div id="animationModal" class="u-modal-window p-7" style="width: 500px; display: none;">
+              <button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();">
+                <span class="fas fa-times"></span>
+              </button>
+
+              <div class="mb-7">
+                <h4 class="h2">Modal title</h4>
+                <p>Modal body text goes here.</p>
+              </div>
+
+              <button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            <!-- End Modal -->
+          </div>
+
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;a class="btn btn-primary u-btn-primary" href="#animationModal"
+                 data-modal-target="#animationModal"
+                 data-modal-effect="fadein"&gt;
+                FadeIn
+              &lt;/a&gt;
+
+              &lt;div id="animationModal" class="u-modal-window p-5" style="display: none;"&gt;
+                &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();"&gt;
+                  &lt;span class="fas fa-times"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+
+                &lt;h4&gt;Modal title&lt;/h4&gt;
+                &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+                &lt;button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();"&gt;Close&lt;/button&gt;
+                &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+
+          <p>To use an animated option, copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of popups
+                  $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="situation-options" class="mb-9">
+          <h2 class="h4">Situation options <a class="anchorjs-link" href="#situation-options" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Check out all available situation modal options.</p>
+
+          <div class="fd-example">
+            <!-- After some time Modal -->
+            <a class="btn btn-primary u-btn-primary mb-1" href="#aftersometimeModal"
+               data-modal-target="#aftersometimeModal"
+               data-modal-effect="fadein">
+              Open after some time
+            </a>
+
+            <div id="aftersometimeModal" class="js-autonomous-popup u-modal-window p-7" style="width: 500px; display: none;"
+                 data-modal-type="aftersometime"
+                 data-open-effect="zoomIn"
+                 data-close-effect="zoomOut"
+                 data-delay="5000"
+                 data-speed="500">
+              <button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();">
+                <span class="fas fa-times"></span>
+              </button>
+
+              <div class="mb-7">
+                <h4 class="h2">Open after some time</h4>
+                <p>Modal body text goes here.</p>
+              </div>
+
+              <button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            <!-- End After some time Modal -->
+
+            <!-- On scroll Modal -->
+            <a class="btn btn-primary u-btn-primary mb-1" href="#onscrollModal"
+               data-modal-target="#onscrollModal"
+               data-modal-effect="fadein">
+              Open on scroll
+            </a>
+
+            <div id="onscrollModal" class="js-autonomous-popup u-modal-window p-7" style="width: 500px; display: none;"
+                 data-modal-type="onscroll"
+                 data-open-effect="flipInY"
+                 data-close-effect="flipOutY"
+                 data-breakpoint="1000"
+                 data-speed="500">
+              <button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();">
+                <span class="fas fa-times"></span>
+              </button>
+
+              <div class="mb-7">
+                <h4 class="h2">Open on scroll</h4>
+                <p>Modal body text goes here.</p>
+              </div>
+
+              <button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            <!-- End On scroll Modal -->
+
+            <!-- On target Modal -->
+            <a class="btn btn-primary u-btn-primary mb-1" href="#ontargetModal"
+               data-modal-target="#ontargetModal"
+               data-modal-effect="fadein">
+              Open on target
+            </a>
+
+            <div id="ontargetModal" class="js-autonomous-popup u-modal-window p-7" style="width: 500px; display: none;"
+                 data-modal-type="ontarget"
+                 data-open-effect="flipInY"
+                 data-close-effect="flipOutY"
+                 data-target="#modal-anchor"
+                 data-speed="500">
+              <button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();">
+                <span class="fas fa-times"></span>
+              </button>
+
+              <div class="mb-7">
+                <h4 class="h2">Open on target</h4>
+                <p>Modal body text goes here.</p>
+              </div>
+
+              <button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            <!-- End On target Modal -->
+
+            <!-- Hashlink Modal -->
+            <a class="btn btn-primary u-btn-primary mb-1" href="modal-window.html#hashlinkModal" target="_blank">
+              Open on hashlink
+            </a>
+
+            <div id="hashlinkModal" class="js-autonomous-popup u-modal-window p-7" style="width: 500px; display: none;"
+                 data-modal-type="hashlink"
+                 data-open-effect="flipInY"
+                 data-close-effect="flipOutY"
+                 data-speed="500">
+              <button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();">
+                <span class="fas fa-times"></span>
+              </button>
+
+              <div class="mb-7">
+                <h4 class="h2">Open on hashlink</h4>
+                <p>Modal body text goes here.</p>
+              </div>
+
+              <button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            <!-- End Hashlink Modal -->
+          </div>
+
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- After some time Modal --&gt;
+                &lt;a class="btn btn-primary u-btn-primary mb-1" href="#aftersometimeModal"
+                   data-modal-target="#aftersometimeModal"
+                   data-modal-effect="fadein"&gt;
+                  Open after some time
+                &lt;/a&gt;
+
+                &lt;div id="aftersometimeModal" class="js-autonomous-popup u-modal-window p-5" style="display: none;"
+                     data-modal-type="aftersometime"
+                     data-open-effect="zoomIn"
+                     data-close-effect="zoomOut"
+                     data-delay="5000"
+                     data-speed="500"&gt;
+                  &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();"&gt;
+                    &lt;span class="fas fa-times"&gt;&lt;/span&gt;
+                  &lt;/button&gt;
+
+                  &lt;h4&gt;Open after some time&lt;/h4&gt;
+                  &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+                  &lt;button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();"&gt;Close&lt;/button&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;!-- End After some time Modal --&gt;
+
+                &lt;!-- On scroll Modal --&gt;
+                &lt;a class="btn btn-primary u-btn-primary mb-1" href="#onscrollModal"
+                   data-modal-target="#onscrollModal"
+                   data-modal-effect="fadein"&gt;
+                  Open on scroll
+                &lt;/a&gt;
+
+                &lt;div id="onscrollModal" class="js-autonomous-popup u-modal-window p-5" style="display: none;"
+                     data-modal-type="onscroll"
+                     data-open-effect="flipInY"
+                     data-close-effect="flipOutY"
+                     data-breakpoint="1000"
+                     data-speed="500"&gt;
+                  &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();"&gt;
+                    &lt;span class="fas fa-times"&gt;&lt;/span&gt;
+                  &lt;/button&gt;
+
+                  &lt;h4&gt;Open on scroll&lt;/h4&gt;
+                  &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+                  &lt;button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();"&gt;Close&lt;/button&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;!-- End On scroll Modal --&gt;
+
+                &lt;!-- On target Modal --&gt;
+                &lt;a class="btn btn-primary u-btn-primary mb-1" href="#ontargetModal"
+                   data-modal-target="#ontargetModal"
+                   data-modal-effect="fadein"&gt;
+                  Open on target
+                &lt;/a&gt;
+
+                &lt;div id="ontargetModal" class="js-autonomous-popup u-modal-window p-5" style="display: none;"
+                     data-modal-type="ontarget"
+                     data-open-effect="flipInY"
+                     data-close-effect="flipOutY"
+                     data-target="#modal-anchor"
+                     data-speed="500"&gt;
+                  &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();"&gt;
+                    &lt;span class="fas fa-times"&gt;&lt;/span&gt;
+                  &lt;/button&gt;
+
+                  &lt;h4&gt;Open on target&lt;/h4&gt;
+                  &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+                  &lt;button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();"&gt;Close&lt;/button&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;!-- End On target Modal --&gt;
+
+                &lt;!-- Hashlink Modal --&gt;
+                &lt;a class="btn btn-primary u-btn-primary mb-1" href="modal-window.html#hashlinkModal" target="_blank"&gt;
+                  Open on hashlink
+                &lt;/a&gt;
+
+                &lt;div id="hashlinkModal" class="js-autonomous-popup u-modal-window p-5" style="display: none;"
+                     data-modal-type="hashlink"
+                     data-open-effect="flipInY"
+                     data-close-effect="flipOutY"
+                     data-speed="500"&gt;
+                  &lt;button class="btn btn-xs u-btn--icon u-btn-text-secondary u-modal-window__close" type="button" onclick="Custombox.modal.close();"&gt;
+                    &lt;span class="fas fa-times"&gt;&lt;/span&gt;
+                  &lt;/button&gt;
+
+                  &lt;h4&gt;Open on hashlink&lt;/h4&gt;
+                  &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+                  &lt;button type="button" class="btn btn-secondary" role="button" onclick="Custombox.modal.close();"&gt;Close&lt;/button&gt;
+                  &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;!-- End Hashlink Modal --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <p>To use an situation modal option, copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of autonomous popups
+                  $.HSCore.components.HSModalWindow.init('.js-autonomous-popup', {
+                    autonomous: true
+                  });
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="js-behavior" class="mb-4">
+          <h2 class="h4">JavaScript behavior <a class="anchorjs-link" href="#js-behavior" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="methods" class="mb-9">
+          <h2 class="h4">Methods <a class="anchorjs-link" href="#methods" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-modal-target=""</code>.</p>
+
+          <div class="fd-example">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 25%;">Attributes</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-modal-target</code></p>
+                  </td>
+                  <td>The ID of the called modal window.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-effect</code></p>
+                  </td>
+                  <td>
+                    Use if you want to use the built-in effects. The attribute is given only to the modal window, <strong class="text-dark">not the links through which it is called</strong>. This attribute is required if the one of the below given functions are used:
+
+                    <ul>
+                      <li>aftersometime</li>
+                      <li>onscroll</li>
+                      <li>ontarget</li>
+                      <li>beforeunload</li>
+                    </ul>
+
+                    List of available effects:
+
+                    <ul>
+                      <li>fadein</li>
+                      <li>slide</li>
+                      <li>blur</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-modal-effect</code></p>
+                  </td>
+                  <td>
+                    Use if you want to use the built-in effects. The attribute is given to a link through which the modal window is called.
+
+                    List of available effects:
+
+                    <ul>
+                      <li>fadein</li>
+                      <li>slide</li>
+                      <li>blur</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-open-effect</code></p>
+                  </td>
+                  <td>Used if the effect of opening a modal window is taken from the library <code class="highlighter-rouge">animate.css</code>.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-close-effect</code></p>
+                  </td>
+                  <td>Used if the effect of opening a modal window is taken from the library <code class="highlighter-rouge">animate.css</code>.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-overlay-color</code></p>
+                  </td>
+                  <td><strong class="text-dark">overlay</strong> color of the modal window.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-overlay-opacity</code></p>
+                  </td>
+                  <td>Opacity color of the modal window's overlay.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-speed</code></p>
+                  </td>
+                  <td>Speed of the opening modal window.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-modal-delay</code></p>
+                  </td>
+                  <td>Delays the opening of the modal window for the time specified in the attribute, after the block specified in the data-target gets into the viewport.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-breakpoint</code></p>
+                  </td>
+                  <td>If <code class="highlighter-rouge">data-modal-type=""</code> is set to <code class="highlighter-rouge">onscroll</code>, it opens a modal window if the distance from the top of the page is equal to the value of the attribute.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-modal-type</code></p>
+                  </td>
+                  <td>
+                    Modal window type. Valid values are:
+
+                    <ul>
+                      <li><code class="highlighter-rouge">aftersometime</code> - opens a modal window after the specified time specified in the attribute <code class="highlighter-rouge">data-delay</code></li>
+                      <li><code class="highlighter-rouge">onscroll</code> - opens a modal window if the distance from the top of the page is equal to the value of the attribute <code class="highlighter-rouge">data-breakpoint</code></li>
+                      <li><code class="highlighter-rouge">ontarget</code> - opens modal when the block specified in the <code class="highlighter-rouge">data-target</code> gets into the viewport</li>
+                      <li><code class="highlighter-rouge">hashlink</code> - opens a modal window in new page</li>
+                      <li><code class="highlighter-rouge">beforeunload</code> - opens a modal window when the user moves the cursor away from the viewport.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../../assets/vendor/custombox/dist/custombox.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../../assets/js/components/hs.modal-window.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of popups
+      $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+
+      // initialization of autonomous popups
+      $.HSCore.components.HSModalWindow.init('.js-autonomous-popup', {
+        autonomous: true
+      });
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

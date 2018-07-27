@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Charts - Front Documentation | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../../assets/vendor/chartist/dist/chartist.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/chartist-js-tooltip/chartist-plugin-tooltip.css">
+  <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <style type="text/css">
+    p {
+      color: #1e2022;
+    }
+  </style>
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section bg-dark u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="../index.html" aria-label="Front">
+            <img src="../../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Starter -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../../starter/index.html">Starter</a>
+              </li>
+              <!-- End Starter -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../assets/include/ajax/autocomplete-data-for-documentation-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#getting-started" aria-expanded="true" aria-controls="getting-started" href="javascript:;">Getting started</a>
+
+            <ul id="getting-started" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/gulp.html">Gulp</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelog</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title collapsed" data-toggle="collapse" data-target="#components" aria-expanded="true" aria-controls="components" href="javascript:;">Components</a>
+
+            <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animations.html">Animations</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background Video</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a class="active" href="charts.html">Charts</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="countdown.html">Countdown</a></li>
+              <li><a href="counters.html">Counters</a></li>
+              <li><a href="cubeportfolio.html">Cubeportfolio</a></li>
+              <li><a href="dividers.html">Dividers</a></li>
+              <li><a href="unfold.html">Unfold (Dropdown and others)</a></li>
+              <li><a href="fancybox.html">Fancybox</a></li>
+              <li><a href="forms.html">Forms</a></li>
+              <li><a href="input-group.html">Input Groups</a></li>
+              <li><a href="google-map.html">Google Map</a></li>
+              <li><a href="go-to.html">Go to</a></li>
+              <li><a href="headers.html">Headers</a></li>
+              <li><a href="header-mega-menu.html">Header Mega Menu</a></li>
+              <li><a href="header-fullscreen.html">Header Fullscreen</a></li>
+              <li><a href="header-searches.html">Header Searches</a></li>
+              <li><a href="header-shopping-carts.html">Header Shopping Carts</a></li>
+              <li><a href="icons.html">Icons</a></li>
+              <li><a href="labels.html">Label</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="malihu-scrollbar.html">Malihu Scrollbar</a></li>
+              <li><a href="modal-window.html">Modal Window</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="parallax.html">Parallax</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scroll-effect.html">Scroll Effect</a></li>
+              <li><a href="scroll-nav.html">Scroll Nav</a></li>
+              <li><a href="show-animation.html">Show Animation</a></li>
+              <li><a href="skippy.html">Skippy</a></li>
+              <li><a href="slick-carousel.html">Slick Carousel</a></li>
+              <li><a href="social-apis.html">Social APIs</a></li>
+              <li><a href="sticky-block.html">Sticky Block</a></li>
+              <li><a href="sticky-footer.html">Sticky Footer</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="typedjs.html">Typedjs</a></li>
+              <li><a href="validation.html">Validation</a></li>
+              <li><a href="video-player.html">Video Player</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#utilities" aria-expanded="true" aria-controls="utilities" href="javascript:;">Utilities</a>
+
+            <ul id="utilities" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../utilities/borders.html">Borders</a></li>
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/content-alignments.html">Content Alignments (with Position)</a></li>
+              <li><a href="../utilities/links.html">Links</a></li>
+              <li><a href="../utilities/position.html">Position</a></li>
+              <li><a href="../utilities/sizing.html">Sizing</a></li>
+              <li><a href="../utilities/shadows.html">Shadows</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+              <li><a href="../utilities/transitions.html">Transitions</a></li>
+              <li><a href="../utilities/others.html">Others</a></li>
+            </ul>
+          </div>
+
+          <div class="fd-navside__block">
+            <a class="fd-navside__title" data-toggle="collapse" data-target="#customization" aria-expanded="true" aria-controls="customization" href="javascript:;">Customization</a>
+
+            <ul id="customization" class="fd-navside__links collapse" data-parent="#navside-accordion">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/bootstrap-sass.html">Bootstrap SASS</a></li>
+              <li><a href="../customization/js.html">JavaScript</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== RIGHT ========== -->
+      <div class="d-none d-xl-block col-xl-2 fd-toc">
+        <ul id="scrollNav" class="fd-toc-section-nav">
+          <li class="fd-toc-entry active">
+            <a href="#area-chart">Area chart</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#how-to-use-area-chart">How to use?</a></li>
+              <li class="fd-toc-entry"><a href="#area-chart-basic-example">Basic example</a></li>
+              <li class="fd-toc-entry">
+                <a href="#area-chart-js-behavior">JavaScript behavior</a>
+                <ul>
+                  <li class="fd-toc-entry"><a href="#area-chart-methods">Methods</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="fd-toc-entry">
+            <a href="#bar-chart">Bar chart</a>
+            <ul>
+              <li class="fd-toc-entry"><a href="#how-to-use-bar-chart">How to use?</a></li>
+              <li class="fd-toc-entry"><a href="#bar-chart-basic-example">Basic example</a></li>
+              <li class="fd-toc-entry">
+                <a href="#bar-chart-js-behavior">JavaScript behavior</a>
+                <ul>
+                  <li class="fd-toc-entry"><a href="#bar-chart-methods">Methods</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== END RIGHT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-8 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Charts</h1>
+          <p class="lead font-weight-normal"></p>
+        </div>
+
+        <div id="area-chart" class="mb-5">
+          <h2 class="h4">Area chart <a class="anchorjs-link" href="#area-chart" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="how-to-use-area-chart" class="mb-9">
+          <h2 class="h4">How to use? <a class="anchorjs-link" href="#how-to-use-area-chart" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Copy-paste the stylesheets <code class="highlighter-rouge">&lt;link&gt;</code> into your <code class="highlighter-rouge">&lt;head&gt;</code> to load the CSS.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/chartist/dist/chartist.min.css"&gt;
+              &lt;link rel="stylesheet" href="assets/vendor/chartist-js-tooltip/chartist-plugin-tooltip.css"&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code>s near the end of your pages under <em><u>JS Implementing Plugins</u></em> to enable them.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/vendor/chartist/dist/chartist.min.js"&gt;&lt;/script&gt;
+              &lt;script src="assets/vendor/chartist-js-tooltip/chartist-plugin-tooltip.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Front</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/js/components/hs.chartist-area-chart.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of chartist area charts
+                  $.HSCore.components.HSChartistAreaChart.init('.js-area-chart');
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="area-chart-basic-example" class="mb-9">
+          <h2 class="h4">Basic example <a class="anchorjs-link" href="#area-chart-basic-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="js-area-chart u-stats-v2 mb-4"
+                 data-height="16rem"
+                 data-mobile-height="16rem"
+                 data-offset-x="30"
+                 data-offset-y="0"
+                 data-postfix="m"
+                 data-is-show-area="true"
+                 data-is-show-line="false"
+                 data-is-show-point="true"
+                 data-is-full-width="true"
+
+                 data-is-stack-bars="true"
+                 data-is-show-axis-x="false"
+                 data-is-show-axis-y="true"
+                 data-is-show-tooltips="true"
+                 data-tooltip-description-position="center"
+                 data-tooltip-custom-class="u-stats-v2__tooltip"
+
+                 data-align-text-axis-x="center"
+                 data-fill-opacity=".8"
+                 data-fill-colors='["#ffc107", "#377dff"]'
+                 data-stroke-width=".0625rem"
+                 data-stroke-color="#f0f4f7"
+                 data-stroke-dash-array="0"
+                 data-text-size-x=".75rem"
+                 data-text-color-x="#77838f"
+                 data-text-offset-top-x="10"
+
+                 data-text-size-y=".75rem"
+                 data-text-color-y="#77838f"
+                 data-points-colors='["#ffc107", "#377dff"]'
+                 data-series='[[
+                    {"meta": "Orders", "value": 2000},
+                    {"meta": "Orders", "value": 6000},
+                    {"meta": "Orders", "value": 5500},
+                    {"meta": "Orders", "value": 7000},
+                    {"meta": "Orders", "value": 6000},
+                    {"meta": "Orders", "value": 7500}
+                  ], [
+                    {"meta": "Visits", "value": 3000},
+                    {"meta": "Visits", "value": 5000},
+                    {"meta": "Visits", "value": 4000},
+                    {"meta": "Visits", "value": 7000},
+                    {"meta": "Visits", "value": 6500},
+                    {"meta": "Visits", "value": 7000}
+                 ]]'
+                 data-labels='["Jan", "Feb", "Apr", "May", "Jun", "Jul"]'></div>
+          </div>
+
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-html" data-lang="html">
+                &lt;div class="js-area-chart u-stats-v2 mb-4"
+                     data-height="16rem"
+                     data-mobile-height="16rem"
+                     data-offset-x="30"
+                     data-offset-y="0"
+                     data-postfix="m"
+                     data-is-show-area="true"
+                     data-is-show-line="false"
+                     data-is-show-point="true"
+                     data-is-full-width="true"
+
+                     data-is-stack-bars="true"
+                     data-is-show-axis-x="false"
+                     data-is-show-axis-y="true"
+                     data-is-show-tooltips="true"
+                     data-tooltip-description-position="center"
+                     data-tooltip-custom-class="u-stats-v2__tooltip"
+
+                     data-align-text-axis-x="center"
+                     data-fill-opacity=".8"
+                     data-fill-colors='["#ffc107", "#377dff"]'
+                     data-stroke-width=".0625rem"
+                     data-stroke-color="#f0f4f7"
+                     data-stroke-dash-array="0"
+                     data-text-size-x=".75rem"
+                     data-text-color-x="#77838f"
+                     data-text-offset-top-x="10"
+
+                     data-text-size-y=".75rem"
+                     data-text-color-y="#77838f"
+                     data-points-colors='["#ffc107", "#377dff"]'
+                     data-series='[[
+                        {"meta": "Orders", "value": 2000},
+                        {"meta": "Orders", "value": 6000},
+                        {"meta": "Orders", "value": 5500},
+                        {"meta": "Orders", "value": 7000},
+                        {"meta": "Orders", "value": 6000},
+                        {"meta": "Orders", "value": 7500}
+                      ], [
+                        {"meta": "Visits", "value": 3000},
+                        {"meta": "Visits", "value": 5000},
+                        {"meta": "Visits", "value": 4000},
+                        {"meta": "Visits", "value": 7000},
+                        {"meta": "Visits", "value": 6500},
+                        {"meta": "Visits", "value": 7000}
+                     ]]'
+                     data-labels='["Jan", "Feb", "Apr", "May", "Jun", "Jul"]'&gt;&lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div id="area-chart-js-behavior" class="mb-4">
+          <h2 class="h4">JavaScript behavior <a class="anchorjs-link" href="#area-chart-js-behavior" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="area-chart-methods" class="mb-9">
+          <h2 class="h4">Methods <a class="anchorjs-link" href="#area-chart-methods" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-series=""</code>.</p>
+
+          <div class="fd-example">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Attribute</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-series</code></p>
+                  </td>
+                  <td>
+                    The data on which the graphics will be based. Each value corresponds to a point on the graph. Also, this data is displayed in the tooltip that appears when you hover over the cursor.
+
+                    <h4 class="h6">Screenshot example:</h4>
+                    <img class="img-fluid" src="../assets/img/img18.png" alt="Image Description">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-labels</code></p>
+                  </td>
+                  <td>
+                    Labels along the X axis.
+
+                    <h4 class="h6">Screenshot example:</h4>
+                    <img class="img-fluid" src="../assets/img/img19.png" alt="Image Description">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-height</code></p>
+                  </td>
+                  <td>Chart height.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-mobile-height</code></p>
+                  </td>
+                  <td>Chart height at resolution less than 768 px.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-high</code></p>
+                  </td>
+                  <td>
+                    Highest value on the chart.
+
+                    <h4 class="h6">Screenshot example:</h4>
+                    <img class="img-fluid" src="../assets/img/img20.png" alt="Image Description">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-low</code></p>
+                  </td>
+                  <td>
+                    The lowest value on the graph. Can be negative. In this case, the graph will go below the zero point.
+
+                    <h4 class="h6">Screenshot example:</h4>
+                    <img class="img-fluid" src="../assets/img/img21.png" alt="Image Description">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-offset-x</code></p>
+                  </td>
+                  <td>The offset from the edge of the chart to the labels along the X axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-offset-y</code></p>
+                  </td>
+                  <td>The offset from the edge of the chart to the labels along the Y axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-postfix</code></p>
+                  </td>
+                  <td>
+                    Postfix is put after each label on the Y axis.
+
+                    <h4 class="h6">Screenshot example:</h4>
+                    <img class="img-fluid" src="../assets/img/img22.png" alt="Image Description">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-align-text-axis-x</code></p>
+                  </td>
+                  <td>Align labels to the X axis. Possible values:
+                    <ul>
+                      <li>left</li>
+                      <li>right</li>
+                      <li>center</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-show-area</code></p>
+                  </td>
+                  <td>Determines whether the graph itself is visible.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-show-line</code></p>
+                  </td>
+                  <td>
+                    Determines whether the strokes of the graphs are shown.
+
+                    <h4 class="h6">Screenshot example:</h4>
+                    <img class="img-fluid" src="../assets/img/img23.png" alt="Image Description">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-show-point</code></p>
+                  </td>
+                  <td>Determines whether the points on the graph are shown.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-full-width</code></p>
+                  </td>
+                  <td>Stretches the chart for the entire width of the grid.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-show-axis-x</code></p>
+                  </td>
+                  <td>Determines whether lines will be displayed against the background of the chart along the X axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-show-axis-y</code></p>
+                  </td>
+                  <td>Determines whether lines will be displayed against the background of the chart along the Y axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-show-tooltips</code></p>
+                  </td>
+                  <td>Determines whether hover prompts specified in the data-series attribute are displayed.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-tooltip-description-position</code></p>
+                  </td>
+                  <td>Determines which side of the description will be specified in the tooltip. Possible values:
+                    <ul>
+                      <li>left</li>
+                      <li>right</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-tooltip-custom-class</code></p>
+                  </td>
+                  <td>Adds additional classes to the prompt.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-fill-opacity</code></p>
+                  </td>
+                  <td>Opacity of the charts.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-fill-colors</code></p>
+                  </td>
+                  <td>Fill color.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-stroke-color</code></p>
+                  </td>
+                  <td>Stroke color.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-stroke-dash-array</code></p>
+                  </td>
+                  <td>If the value of the attribute is 0, then the lines on the background are solid. If greater than 0, then determines the distance between the line generators lines.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-text-size-x</code></p>
+                  </td>
+                  <td>The font size for labels on the X axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-text-size-y</code></p>
+                  </td>
+                  <td>The font size for labels on the Y axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-text-offset-top-x</code></p>
+                  </td>
+                  <td>The distance from the text to the chart is along the x-axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-text-offset-top-y</code></p>
+                  </td>
+                  <td>The distance to the right of the text to the graph along the Y axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-text-color-y</code></p>
+                  </td>
+                  <td>The text color of labels in the Y axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-points-colors</code></p>
+                  </td>
+                  <td>Colors of points on the graph.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="bar-chart" class="mb-5">
+          <h2 class="h4">Bar chart <a class="anchorjs-link" href="#bar-chart" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="how-to-use-bar-chart" class="mb-9">
+          <h2 class="h4">How to use? <a class="anchorjs-link" href="#how-to-use-bar-chart" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Copy-paste the stylesheets <code class="highlighter-rouge">&lt;link&gt;</code> into your <code class="highlighter-rouge">&lt;head&gt;</code> to load the CSS.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;link rel="stylesheet" href="assets/vendor/chartist/dist/chartist.min.css"&gt;
+              &lt;link rel="stylesheet" href="assets/vendor/chartist-js-tooltip/chartist-plugin-tooltip.css"&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code>s near the end of your pages under <em><u>JS Implementing Plugins</u></em> to enable them.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/vendor/chartist/dist/chartist.min.js"&gt;&lt;/script&gt;
+              &lt;script src="assets/vendor/chartist-js-tooltip/chartist-plugin-tooltip.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS Front</u></em> to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script src="assets/js/components/hs.chartist-bar-chart.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+
+          <p>Copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of chartist bar charts
+                  $.HSCore.components.HSChartistBarChart.init('.js-bar-chart');
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="bar-chart-basic-example" class="mb-9">
+          <h2 class="h4">Basic example <a class="anchorjs-link" href="#bar-chart-basic-example" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <div class="js-bar-chart"
+                 data-series='[
+                   [10,8,5,7,6,6,10,10,8,5,7,6,6,10,6,6,10,10,8,5,7,6,6,10,6,6,10,10,8]
+                 ]'
+                 data-is-show-axis-x="false"
+                 data-is-show-axis-y="false"
+                 data-height="62px"
+                 data-high="10"
+                 data-low="0"
+                 data-distance="5"
+                 data-stroke-width="6"
+                 data-stroke-color="#19a0ff"></div>
+          </div>
+
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-html" data-lang="html">
+                &lt;div class="js-bar-chart"
+                     data-series='[
+                       [10,8,5,7,6,6,10,10,8,5,7,6,6,10,6,6,10,10,8,5,7,6,6,10,6,6,10,10,8]
+                     ]'
+                     data-is-show-axis-x="false"
+                     data-is-show-axis-y="false"
+                     data-height="62px"
+                     data-high="10"
+                     data-low="0"
+                     data-distance="5"
+                     data-stroke-width="6"
+                     data-stroke-color="#19a0ff"&gt;&lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div id="bar-chart-js-behavior" class="mb-4">
+          <h2 class="h4">JavaScript behavior <a class="anchorjs-link" href="#bar-chart-js-behavior" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+        </div>
+
+        <div id="bar-chart-methods" class="mb-9">
+          <h2 class="h4">Methods <a class="anchorjs-link" href="#bar-chart-methods" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-series=""</code>.</p>
+
+          <div class="fd-example">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Attribute</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-series</code></p>
+                  </td>
+                  <td>The data on which the graphics will be based.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-height</code></p>
+                  </td>
+                  <td>Chart height.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-high</code></p>
+                  </td>
+                  <td>Highest value on the chart.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-stroke-width</code></p>
+                  </td>
+                  <td>The width of the individual column.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-stroke-color</code></p>
+                  </td>
+                  <td>Stroke color.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-show-axis-x</code></p>
+                  </td>
+                  <td>Determines whether lines are displayed against the background of the graph along the X axis.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><code class="highlighter-rouge">data-is-show-axis-y</code></p>
+                  </td>
+                  <td>Determines whether lines are displayed against the background of the graph along the Y axis.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../../assets/vendor/chartist/dist/chartist.min.js"></script>
+  <script src="../../assets/vendor/chartist-js-tooltip/chartist-plugin-tooltip.js"></script>
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/components/hs.header.js"></script>
+  <script src="../../assets/js/components/hs.unfold.js"></script>
+  <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../../assets/js/components/hs.chartist-area-chart.js"></script>
+  <script src="../../assets/js/components/hs.chartist-bar-chart.js"></script>
+  <script src="../assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of chartist area charts
+      $.HSCore.components.HSChartistAreaChart.init('.js-area-chart');
+
+      // initialization of chartist bar charts
+      $.HSCore.components.HSChartistBarChart.init('.js-bar-chart');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

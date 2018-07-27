@@ -1,0 +1,99 @@
+[
+  {
+    "label": "Index",
+    "category": "Components",
+    "url": "index.html"
+  },{
+    "label": "Clients",
+    "category": "Components",
+    "url": "clients.html"
+  },{
+    "label": "Call-to-action (CTA)",
+    "category": "Components",
+    "url": "cta.html"
+  },{
+    "label": "Features",
+    "category": "Components",
+    "url": "features.html"
+  },{
+    "label": "Footers",
+    "category": "Components",
+    "url": "footers.html"
+  },{
+    "label": "Form layouts",
+    "category": "Components",
+    "url": "form-layouts.html"
+  },{
+    "label": "Gallery",
+    "category": "Components",
+    "url": "gallery.html"
+  },{
+    "label": "Header layouts",
+    "category": "Components",
+    "url": "header-layouts.html"
+  },{
+    "label": "Hero",
+    "category": "Components",
+    "url": "hero.html"
+  },{
+    "label": "Hero subscribe",
+    "category": "Components",
+    "url": "hero-subscribe.html"
+  },{
+    "label": "Icon blocks",
+    "category": "Components",
+    "url": "icon-blocks.html"
+  },{
+    "label": "Indicators",
+    "category": "Components",
+    "url": "indicators.html"
+  },{
+    "label": "Info",
+    "category": "Components",
+    "url": "info.html"
+  },{
+    "label": "Modal window",
+    "category": "Components",
+    "url": "modal-window.html"
+  },{
+    "label": "News blogs",
+    "category": "Components",
+    "url": "news-blogs.html"
+  },{
+    "label": "Pagination",
+    "category": "Components",
+    "url": "pagination.html"
+  },{
+    "label": "Pricing",
+    "category": "Components",
+    "url": "pricing.html"
+  },{
+    "label": "Products",
+    "category": "Components",
+    "url": "products.html"
+  },{
+    "label": "Products hero",
+    "category": "Components",
+    "url": "products-hero.html"
+  },{
+    "label": "Statistics",
+    "category": "Components",
+    "url": "stats.html"
+  },{
+    "label": "Testimonials",
+    "category": "Components",
+    "url": "testimonials.html"
+  },{
+    "label": "Unfold dropdown",
+    "category": "Components",
+    "url": "unfold-dropdown.html"
+  },{
+    "label": "Unfold sidebar",
+    "category": "Components",
+    "url": "unfold-sidebar.html"
+  },{
+    "label": "Video player",
+    "category": "Components",
+    "url": "video-player.html"
+  }
+]

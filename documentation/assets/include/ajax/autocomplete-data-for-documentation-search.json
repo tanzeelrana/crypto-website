@@ -1,0 +1,275 @@
+[
+  {
+    "label": "Introduction",
+    "category": "Getting started",
+    "url": "index.html"
+  },{
+    "label": "Changelog",
+    "category": "Getting started",
+    "url": "getting-started/changelog.html"
+  },{
+    "label": "Credits",
+    "category": "Getting started",
+    "url": "getting-started/credits.html"
+  },{
+    "label": "File structures",
+    "category": "Getting started",
+    "url": "getting-started/file-structures.html"
+  },{
+    "label": "Gulp",
+    "category": "Getting started",
+    "url": "getting-started/gulp.html"
+  },{
+    "label": "Update",
+    "category": "Getting started",
+    "url": "getting-started/update.html"
+  },{
+    "label": "Bootstrap SASS",
+    "category": "Customization",
+    "url": "customization/bootstrap-sass.html"
+  },{
+    "label": "Colors",
+    "category": "Customization",
+    "url": "customization/colors.html"
+  },{
+    "label": "CSS",
+    "category": "Customization",
+    "url": "customization/css.html"
+  },{
+    "label": "JS",
+    "category": "Customization",
+    "url": "customization/js.html"
+  },{
+    "label": "SASS",
+    "category": "Customization",
+    "url": "customization/sass.html"
+  },{
+    "label": "Typography",
+    "category": "Customization",
+    "url": "customization/typography.html"
+  },{
+    "label": "Borders",
+    "category": "Utilities",
+    "url": "utilities/borders.html"
+  },{
+    "label": "Colors",
+    "category": "Utilities",
+    "url": "utilities/colors.html"
+  },{
+    "label": "Content alignments",
+    "category": "Utilities",
+    "url": "utilities/content-alignments.html"
+  },{
+    "label": "Links",
+    "category": "Utilities",
+    "url": "utilities/links.html"
+  },{
+    "label": "Position",
+    "category": "Utilities",
+    "url": "utilities/position.html"
+  },{
+    "label": "Shadows",
+    "category": "Utilities",
+    "url": "utilities/shadows.html"
+  },{
+    "label": "Sizing",
+    "category": "Utilities",
+    "url": "utilities/sizing.html"
+  },{
+    "label": "Spacing",
+    "category": "Utilities",
+    "url": "utilities/spacing.html"
+  },{
+    "label": "Transitions",
+    "category": "Utilities",
+    "url": "utilities/transitions.html"
+  },{
+    "label": "Others",
+    "category": "Utilities",
+    "url": "utilities/others.html"
+  },{
+    "label": "Alerts",
+    "category": "Components",
+    "url": "components/alerts.html"
+  },{
+    "label": "Animations",
+    "category": "Components",
+    "url": "components/animations.html"
+  },{
+    "label": "Avatars",
+    "category": "Components",
+    "url": "components/avatars.html"
+  },{
+    "label": "Badge",
+    "category": "Components",
+    "url": "components/badge.html"
+  },{
+    "label": "Background video",
+    "category": "Components",
+    "url": "components/bg-video.html"
+  },{
+    "label": "Buttons",
+    "category": "Components",
+    "url": "components/buttons.html"
+  },{
+    "label": "Charts",
+    "category": "Components",
+    "url": "components/charts.html"
+  },{
+    "label": "Collapse",
+    "category": "Components",
+    "url": "components/collapse.html"
+  },{
+    "label": "Countdown",
+    "category": "Components",
+    "url": "components/countdown.html"
+  },{
+    "label": "Counters",
+    "category": "Components",
+    "url": "components/counters.html"
+  },{
+    "label": "Cubeportfolio",
+    "category": "Components",
+    "url": "components/cubeportfolio.html"
+  },{
+    "label": "Dividers",
+    "category": "Components",
+    "url": "components/dividers.html"
+  },{
+    "label": "Unfold (Dropdown and others)",
+    "category": "Components",
+    "url": "components/unfold.html"
+  },{
+    "label": "Dropdowns",
+    "category": "Components",
+    "url": "components/unfold.html"
+  },{
+    "label": "Fancybox",
+    "category": "Components",
+    "url": "components/fancybox.html"
+  },{
+    "label": "Forms",
+    "category": "Components",
+    "url": "components/forms.html"
+  },{
+    "label": "Google map",
+    "category": "Components",
+    "url": "components/google-map.html"
+  },{
+    "label": "Go to",
+    "category": "Components",
+    "url": "components/go-to.html"
+  },{
+    "label": "Headers",
+    "category": "Components",
+    "url": "components/headers.html"
+  },{
+    "label": "Header fullscreen",
+    "category": "Components",
+    "url": "components/header-fullscreen.html"
+  },{
+    "label": "Header mega-menu",
+    "category": "Components",
+    "url": "components/header-mega-menu.html"
+  },{
+    "label": "Header searches",
+    "category": "Components",
+    "url": "components/header-searches.html"
+  },{
+    "label": "Header shopping carts",
+    "category": "Components",
+    "url": "components/header-shopping-carts.html"
+  },{
+    "label": "Icons",
+    "category": "Components",
+    "url": "components/icons.html"
+  },{
+    "label": "Input group",
+    "category": "Components",
+    "url": "components/input-group.html"
+  },{
+    "label": "Labels",
+    "category": "Components",
+    "url": "components/labels.html"
+  },{
+    "label": "List",
+    "category": "Components",
+    "url": "components/list.html"
+  },{
+    "label": "Malihu scrollbar",
+    "category": "Components",
+    "url": "components/malihu-scrollbar.html"
+  },{
+    "label": "Modal window",
+    "category": "Components",
+    "url": "components/modal-window.html"
+  },{
+    "label": "Pagination",
+    "category": "Components",
+    "url": "components/pagination.html"
+  },{
+    "label": "Parallax",
+    "category": "Components",
+    "url": "components/parallax.html"
+  },{
+    "label": "Progress",
+    "category": "Components",
+    "url": "components/progress.html"
+  },{
+    "label": "Scroll effect",
+    "category": "Components",
+    "url": "components/scroll-effect.html"
+  },{
+    "label": "Scroll-nav",
+    "category": "Components",
+    "url": "components/scroll-nav.html"
+  },{
+    "label": "Show-animation",
+    "category": "Components",
+    "url": "components/show-animation.html"
+  },{
+    "label": "Skippy",
+    "category": "Components",
+    "url": "components/skippy.html"
+  },{
+    "label": "Slick carousel",
+    "category": "Components",
+    "url": "components/slick-carousel.html"
+  },{
+    "label": "Social APIs",
+    "category": "Components",
+    "url": "components/social-apis.html"
+  },{
+    "label": "Sticky block",
+    "category": "Components",
+    "url": "components/sticky-block.html"
+  },{
+    "label": "Sticky footer",
+    "category": "Components",
+    "url": "components/sticky-footer.html"
+  },{
+    "label": "Tables",
+    "category": "Components",
+    "url": "components/tables.html"
+  },{
+    "label": "Tabs",
+    "category": "Components",
+    "url": "components/tabs.html"
+  },{
+    "label": "Typed.js",
+    "category": "Components",
+    "url": "components/alerts.html"
+  },{
+    "label": "Typography",
+    "category": "Components",
+    "url": "components/typography.html"
+  },{
+    "label": "Validation",
+    "category": "Components",
+    "url": "components/validation.html"
+  },{
+    "label": "Video player",
+    "category": "Components",
+    "url": "components/video-player.html"
+  }
+]

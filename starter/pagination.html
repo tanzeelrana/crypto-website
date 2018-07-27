@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Pagination - Front Starter | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../documentation/assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section u-gradient-half-primary-v1 u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="index.html" aria-label="Front">
+            <img src="../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Documentation -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../documentation/index.html">Documentation</a>
+              </li>
+              <!-- End Documentation -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../documentation/assets/include/ajax/autocomplete-data-for-starter-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="cta.html">Call-to-action (CTA)</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="footers.html">Footers</a></li>
+            <li><a href="form-layouts.html">Form layouts</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="header-layouts.html">Header layouts</a></li>
+            <li><a href="hero.html">Hero</a></li>
+            <li><a href="hero-subscribe.html">Hero Subscribe</a></li>
+            <li><a href="icon-blocks.html">Icon blocks</a></li>
+            <li><a href="indicators.html">Indicator</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="modal-window.html">Modal Window</a></li>
+            <li><a href="news-blogs.html">News Blogs</a></li>
+            <li><a class="active" href="pagination.html">Pagination</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="products-hero.html">Products hero</a></li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="unfold-dropdown.html">Unfold (Dropdown)</a></li>
+            <li><a href="unfold-sidebar.html">Unfold (Sidebar)</a></li>
+            <li><a href="video-player.html">Video Player</a></li>
+          </ul>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-10 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Pagination</h1>
+          <p class="lead font-weight-normal">Examples for showing pagination to indicate a series of related content exists across multiple pages.</p>
+        </div>
+
+        <div id="front-page-link-1" class="mb-9">
+          <h2 class="h4">Front page link v1 <a class="anchorjs-link" href="#front-page-link-1" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Paging with modern style which is more suitable for portfolio pages.</p>
+
+          <div class="fd-example">
+            <nav class="clearfix">
+              <div class="row no-gutters">
+                <a class="col-sm-5 order-sm-1 u-paging-v1 u-gradient-overlay-half-primary-v2 u-bg-img-hero u-space-1 u-space-3--sm text-right" href="#" data-bg-img-src="../assets/img/1920x800/img14.jpg">
+                  <div class="px-7">
+                    <span class="text-warning">Prev</span>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="fa fa-arrow-left u-paging-v1__arrow-icon-prev text-warning"></span>
+                      <h2 class="text-white font-weight-bold mb-0">Harvey Corp</h2>
+                    </div>
+                  </div>
+                </a>
+
+                <a class="col-sm-5 order-sm-3 u-paging-v1 u-gradient-overlay-half-primary-v1 u-bg-img-hero u-space-1 u-space-3--sm" href="#" data-bg-img-src="../assets/img/1920x800/img15.jpg">
+                  <div class="px-7">
+                    <span class="text-warning">Next</span>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h2 class="text-white font-weight-bold mb-0">L'OR Milford</h2>
+                      <span class="fa fa-arrow-right u-paging-v1__arrow-icon-next text-warning"></span>
+                    </div>
+                  </div>
+                </a>
+
+                <a class="col-sm-2 order-sm-2 u-paging-v1-view-all u-space-1 u-space-3--sm" href="#">
+                  <span class="fa fa-th u-paging-v1-view-all__icon"></span>
+                  View All
+                </a>
+              </div>
+            </nav>
+          </div>
+
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;nav class="clearfix"&gt;
+                &lt;div class="row no-gutters"&gt;
+                  &lt;a class="col-sm-5 order-sm-1 u-paging-v1 u-gradient-overlay-half-primary-v2 u-bg-img-hero u-space-1 u-space-3--sm text-right" href="#" data-bg-img-src="../assets/img/1920x800/img14.jpg"&gt;
+                    &lt;div class="px-7"&gt;
+                      &lt;span class="text-warning"&gt;Prev&lt;/span&gt;
+                      &lt;div class="d-flex justify-content-between align-items-center"&gt;
+                        &lt;span class="fa fa-arrow-left u-paging-v1__arrow-icon-prev text-warning"&gt;&lt;/span&gt;
+                        &lt;h2 class="text-white font-weight-bold mb-0"&gt;Harvey Corp&lt;/h2&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+
+                  &lt;a class="col-sm-5 order-sm-3 u-paging-v1 u-gradient-overlay-half-primary-v1 u-bg-img-hero u-space-1 u-space-3--sm" href="#" data-bg-img-src="../assets/img/1920x800/img15.jpg"&gt;
+                    &lt;div class="px-7"&gt;
+                      &lt;span class="text-warning"&gt;Next&lt;/span&gt;
+                      &lt;div class="d-flex justify-content-between align-items-center"&gt;
+                        &lt;h2 class="text-white font-weight-bold mb-0"&gt;L'OR Milford&lt;/h2&gt;
+                        &lt;span class="fa fa-arrow-right u-paging-v1__arrow-icon-next text-warning"&gt;&lt;/span&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+
+                  &lt;a class="col-sm-2 order-sm-2 u-paging-v1-view-all u-space-1 u-space-3--sm" href="#"&gt;
+                    &lt;span class="fa fa-th u-paging-v1-view-all__icon"&gt;&lt;/span&gt;
+                    View All
+                  &lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/nav&gt;
+            </code>
+          </pre>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../documentation/assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../assets/js/hs.core.js"></script>
+  <script src="../assets/js/components/hs.header.js"></script>
+  <script src="../assets/js/components/hs.unfold.js"></script>
+  <script src="../assets/js/components/hs.go-to.js"></script>
+  <script src="../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../documentation/assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

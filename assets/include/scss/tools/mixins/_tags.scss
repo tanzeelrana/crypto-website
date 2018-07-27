@@ -1,0 +1,15 @@
+//
+// Tags
+//
+
+// Style Mixin Badge
+@mixin tags-variant($hs-color, $hs-background, $hs-hover-background) {
+  color: ($hs-color);
+  background: rgba($hs-background, .1);
+
+  &:hover,
+  &:focus {
+    color: color-yiq($hs-hover-background);
+    background: $hs-hover-background;
+  }
+}

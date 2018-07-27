@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Unfold (Dropdown) - Front Starter | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/front.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../documentation/assets/css/starter.css">
+</head>
+
+<body>
+  <!-- Skippy -->
+  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+    <div class="container">
+      <span class="u-skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <!-- End Skippy -->
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--sticky-top">
+    <div class="u-header__section u-gradient-half-primary-v1 u-header--white-nav-links">
+      <div class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="index.html" aria-label="Front">
+            <img src="../assets/svg/logos/logo-white.svg" alt="Logo">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn fd-header-toggle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse py-0">
+            <ul class="navbar-nav navbar-expand-md w-100 u-header__navbar-nav">
+              <!-- Live Preview -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../html/home/index.html">Live Preview</a>
+              </li>
+              <!-- End Live Preview -->
+
+              <!-- Documentation -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../documentation/index.html">Documentation</a>
+              </li>
+              <!-- End Documentation -->
+
+              <!-- Contact Us -->
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="mailto:support@htmlstream.com">Contact Us</a>
+              </li>
+              <!-- End Contact Us -->
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-mega-menu d-none d-lg-inline-block u-header__nav-item position-relative ml-lg-auto"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                  v1.2
+                  <span class="fa fa-angle-down u-header__nav-link-icon ml-2"></span>
+                </a>
+
+                <!-- Submenu -->
+                <ul class="hs-mega-menu list-unstyled u-header__sub-menu u-header__sub-menu-menu-gutter--y" style="min-width: 220px;"
+                    aria-labelledby="changelogMenu">
+                  <li class="dropdown-item px-0">
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_2">v1.2</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#version1_1">v1.1</a>
+                    <a class="nav-link u-list__link px-4" href="../documentation/getting-started/changelog.html#initial-release">v1.0</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+              <!-- End Changelog -->
+
+              <!-- Social Icons -->
+              <li class="ml-md-auto ml-lg-0">
+                <ul class="list-inline mb-5 mb-md-0 pt-3 pt-md-0">
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://www.facebook.com/htmlstream" target="_blank">
+                      <span class="fab fa-facebook-f u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://twitter.com/htmlstream" target="_blank">
+                      <span class="fab fa-twitter u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://github.com/htmlstream" target="_blank">
+                      <span class="fab fa-github u-icon__inner"></span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mx-0">
+                    <a class="u-bg-transparent u-icon u-icon-light--air" href="https://dribbble.com/htmlstream" target="_blank">
+                      <span class="fab fa-dribbble u-icon__inner"></span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Social Icons -->
+
+              <!-- Button -->
+              <li class="nav-item pl-md-3">
+                <a class="btn btn-white u-btn-white btn-sm transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
+                  Buy Now
+                </a>
+              </li>
+              <!-- End Button -->
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ========== LEFT ========== -->
+      <div class="col-12 col-md-3 col-xl-2 fd-sidebar">
+        <!-- Sidebar Search -->
+        <form class="fd-search d-flex align-items-center">
+          <input id="fd-sidebar-navigation__search-autocomplete" class="form-control form-control-sm" type="text" placeholder="Search..." data-url="../documentation/assets/include/ajax/autocomplete-data-for-starter-search.json">
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link fd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                  data-toggle="collapse"
+                  data-target="#navside-accordion"
+                  aria-controls="navside-accordion"
+                  aria-expanded="false"
+                  aria-label="Toggle docs navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </form>
+        <!-- End Sidebar Search -->
+
+        <!-- Sidebar Nav -->
+        <nav id="navside-accordion" class="fd-navside collapse">
+          <ul id="components" class="fd-navside__links collapse show" data-parent="#navside-accordion">
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="cta.html">Call-to-action (CTA)</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="footers.html">Footers</a></li>
+            <li><a href="form-layouts.html">Form layouts</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="header-layouts.html">Header layouts</a></li>
+            <li><a href="hero.html">Hero</a></li>
+            <li><a href="hero-subscribe.html">Hero Subscribe</a></li>
+            <li><a href="icon-blocks.html">Icon blocks</a></li>
+            <li><a href="indicators.html">Indicator</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="modal-window.html">Modal Window</a></li>
+            <li><a href="news-blogs.html">News Blogs</a></li>
+            <li><a href="pagination.html">Pagination</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="products-hero.html">Products hero</a></li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a class="active" href="unfold-dropdown.html">Unfold (Dropdown)</a></li>
+            <li><a href="unfold-sidebar.html">Unfold (Sidebar)</a></li>
+            <li><a href="video-player.html">Video Player</a></li>
+          </ul>
+        </nav>
+        <!-- End Sidebar Nav -->
+      </div>
+      <!-- ========== END LEFT ========== -->
+
+      <!-- ========== MAIN ========== -->
+      <main class="col-12 col-md-9 col-xl-10 pl-md-5 fd-content u-space-3" role="main">
+        <div class="mb-9">
+          <h1 class="font-weight-bold">Unfold (Dropdown)</h1>
+          <p class="lead font-weight-normal">Examples of toggle contextual overlays for displaying lists of links and more with the Front unfold plugin.</p>
+        </div>
+
+        <div id="language-dropdown" class="mb-9">
+          <h2 class="h4">Language dropdown <a class="anchorjs-link" href="#language-dropdown" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+
+          <div class="fd-example">
+            <!-- Language -->
+            <div class="position-relative">
+              <a id="languageDropdownInvoker" class="d-flex align-items-center u-unfold-wrapper" href="javascript:;" role="button"
+                 aria-controls="languageDropdown"
+                 aria-haspopup="true"
+                 aria-expanded="false"
+                 data-unfold-event="hover"
+                 data-unfold-target="#languageDropdown"
+                 data-unfold-type="css-animation"
+                 data-unfold-duration="300"
+                 data-unfold-delay="300"
+                 data-unfold-hide-on-scroll="true"
+                 data-unfold-animation-in="slideInUp"
+                 data-unfold-animation-out="fadeOut">
+                 <img class="u-unfold__icon" src="../assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="SVG">
+                <span class="d-inline-block d-sm-none">US</span>
+                <span class="d-none d-sm-inline-block">United States</span>
+                <span class="fa fa-angle-down u-unfold__icon-pointer"></span>
+              </a>
+
+              <div id="languageDropdown" class="u-unfold mt-2" aria-labelledby="languageDropdownInvoker">
+                <a class="active u-list__link" href="#">English</a>
+                <a class="u-list__link" href="#">Deutsch</a>
+                <a class="u-list__link" href="#">Español‎</a>
+              </div>
+            </div>
+            <!-- End Language -->
+          </div>
+
+          <h3 class="h6">HTML:</h3>
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;!-- Language --&gt;
+              &lt;div class="position-relative"&gt;
+                &lt;a id="languageDropdownInvoker" class="d-flex align-items-center u-unfold-wrapper" href="javascript:;" role="button"
+                   aria-controls="languageDropdown"
+                   aria-haspopup="true"
+                   aria-expanded="false"
+                   data-unfold-event="hover"
+                   data-unfold-target="#languageDropdown"
+                   data-unfold-type="css-animation"
+                   data-unfold-duration="300"
+                   data-unfold-delay="300"
+                   data-unfold-hide-on-scroll="true"
+                   data-unfold-animation-in="slideInUp"
+                   data-unfold-animation-out="fadeOut"&gt;
+                   &lt;img class="u-unfold__icon" src="../assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="SVG"&gt;
+                  &lt;span class="d-inline-block d-sm-none"&gt;US&lt;/span&gt;
+                  &lt;span class="d-none d-sm-inline-block"&gt;United States&lt;/span&gt;
+                  &lt;span class="fa fa-angle-down u-unfold__icon-pointer"&gt;&lt;/span&gt;
+                &lt;/a&gt;
+
+                &lt;div id="languageDropdown" class="u-unfold mt-2" aria-labelledby="languageDropdownInvoker"&gt;
+                  &lt;a class="active u-list__link" href="#"&gt;English&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Deutsch&lt;/a&gt;
+                  &lt;a class="u-list__link" href="#"&gt;Español‎&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;!-- End Language --&gt;
+            </code>
+          </pre>
+
+          <h3 class="h6">JS library and initialization:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/js/components/hs.unfold.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Plugins Init. --&gt;
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of unfold component
+                  $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+
+        <div id="country-dropdown" class="mb-9">
+          <h2 class="h4">Country dropdown <a class="anchorjs-link" href="#country-dropdown" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+          <p>Look for the footer to see the Country dropdown example in action through the following page <a href="../html/home/classic-business.html">Classic business</a>.</p>
+
+          <div class="fd-example">
+            <!-- Country -->
+            <div class="btn-group position-relative">
+              <a id="footerCountryInvoker" class="u-btn-text-primary" href="javascript:;" role="button"
+                 aria-controls="footer-country"
+                 aria-haspopup="true"
+                 aria-expanded="false"
+                 data-unfold-event="click"
+                 data-unfold-target="#footer-country"
+                 data-unfold-type="css-animation"
+                 data-unfold-duration="300"
+                 data-unfold-delay="300"
+                 data-unfold-hide-on-scroll="false"
+                 data-unfold-animation-in="slideInUp"
+                 data-unfold-animation-out="fadeOut">
+                <img class="u-unfold__icon u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="United States Flag">
+                <strong class="font-size-14">United States</strong>
+              </a>
+
+              <!-- Content -->
+              <div id="footer-country" class="u-unfold u-unfold--country bottom-0 left-0" aria-labelledby="footerCountryInvoker">
+                <!-- Signup Instantly -->
+                <div class="bg-white u-unfold--country__content">
+                  <div class="p-6">
+                    <h4 class="h6 mb-3"><strong>Front available in</strong></h4>
+
+                    <div class="row">
+                      <div class="col-6">
+                        <!-- List of Countries -->
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/au.svg" alt="Australia Flag">
+                          Australia
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/at.svg" alt="Austria Flag">
+                          Austria
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/be.svg" alt="Belgium Flag">
+                          Belgium
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/ca.svg" alt="Canada Flag">
+                          Canada
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/dk.svg" alt="Denmark Flag">
+                          Denmark
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/fi.svg" alt="Finland Flag">
+                          Finland
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/fr.svg" alt="France Flag">
+                          France
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/de.svg" alt="Germany Flag">
+                          Germany
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/nl.svg" alt="Netherlands Flag">
+                          Netherlands
+                        </a>
+                        <!-- End List of Countries -->
+                      </div>
+
+                      <div class="col-6">
+                        <!-- List of Countries -->
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/nz.svg" alt="New Zealand Flag">
+                          New Zealand
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/no.svg" alt="Norway Flag">
+                          Norway
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/pt.svg" alt="PortugalPREVIEW Flag">
+                          Portugal
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/sg.svg" alt="Singapore Flag">
+                          Singapore
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/es.svg" alt="Spain Flag">
+                          Spain
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/se.svg" alt="Sweden Flag">
+                          Sweden
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/ch.svg" alt="Switzerland Flag">
+                          Switzerland
+                        </a>
+                        <a class="u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/gb.svg" alt="United Kingdom Flag">
+                          United Kingdom
+                        </a>
+                        <a class="active u-list__link" href="#">
+                          <img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="United States Flag">
+                          United States
+                        </a>
+                        <!-- End List of Countries -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <a class="u-unfold--country__link p-6" href="#">
+                    <small class="d-block text-muted mb-1">More countries coming soon.</small>
+                    <small class="d-block">Signup to get notified <span class="fa fa-arrow-right u-unfold__icon-pointer"></span></small>
+                  </a>
+                  <!-- End Signup Instantly -->
+                </div>
+              </div>
+              <!-- End Content -->
+            </div>
+            <!-- End Country -->
+          </div>
+
+          <h3 class="h6">HTML:</h3>
+          <div style="overflow: auto; height: 300px;">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- Country --&gt;
+                &lt;div class="btn-group position-relative"&gt;
+                  &lt;a id="footerCountryInvoker" class="u-btn-text-primary" href="javascript:;" role="button"
+                     aria-controls="footer-country"
+                     aria-haspopup="true"
+                     aria-expanded="false"
+                     data-unfold-event="click"
+                     data-unfold-target="#footer-country"
+                     data-unfold-type="css-animation"
+                     data-unfold-duration="300"
+                     data-unfold-delay="300"
+                     data-unfold-hide-on-scroll="false"
+                     data-unfold-animation-in="slideInUp"
+                     data-unfold-animation-out="fadeOut"&gt;
+                    &lt;img class="u-unfold__icon u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="United States Flag"&gt;
+                    &lt;strong class="font-size-14"&gt;United States&lt;/strong&gt;
+                  &lt;/a&gt;
+
+                  &lt;!-- Content --&gt;
+                  &lt;div id="footer-country" class="u-unfold u-unfold--country bottom-0 left-0" aria-labelledby="footerCountryInvoker"&gt;
+                    &lt;!-- Signup Instantly --&gt;
+                    &lt;div class="bg-white u-unfold--country__content"&gt;
+                      &lt;div class="p-6"&gt;
+                        &lt;h4 class="h6 mb-3"&gt;&lt;strong&gt;Front available in&lt;/strong&gt;&lt;/h4&gt;
+
+                        &lt;div class="row"&gt;
+                          &lt;div class="col-6"&gt;
+                            &lt;!-- List of Countries --&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/au.svg" alt="Australia Flag"&gt;
+                              Australia
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/at.svg" alt="Austria Flag"&gt;
+                              Austria
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/be.svg" alt="Belgium Flag"&gt;
+                              Belgium
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/ca.svg" alt="Canada Flag"&gt;
+                              Canada
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/dk.svg" alt="Denmark Flag"&gt;
+                              Denmark
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/fi.svg" alt="Finland Flag"&gt;
+                              Finland
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/fr.svg" alt="France Flag"&gt;
+                              France
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/de.svg" alt="Germany Flag"&gt;
+                              Germany
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/nl.svg" alt="Netherlands Flag"&gt;
+                              Netherlands
+                            &lt;/a&gt;
+                            &lt;!-- End List of Countries --&gt;
+                          &lt;/div&gt;
+
+                          &lt;div class="col-6"&gt;
+                            &lt;!-- List of Countries --&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/nz.svg" alt="New Zealand Flag"&gt;
+                              New Zealand
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/no.svg" alt="Norway Flag"&gt;
+                              Norway
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/pt.svg" alt="PortugalPREVIEW Flag"&gt;
+                              Portugal
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/sg.svg" alt="Singapore Flag"&gt;
+                              Singapore
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/es.svg" alt="Spain Flag"&gt;
+                              Spain
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/se.svg" alt="Sweden Flag"&gt;
+                              Sweden
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/ch.svg" alt="Switzerland Flag"&gt;
+                              Switzerland
+                            &lt;/a&gt;
+                            &lt;a class="u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/gb.svg" alt="United Kingdom Flag"&gt;
+                              United Kingdom
+                            &lt;/a&gt;
+                            &lt;a class="active u-list__link" href="#"&gt;
+                              &lt;img class="u-list__link-icon mr-2" src="../assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="United States Flag"&gt;
+                              United States
+                            &lt;/a&gt;
+                            &lt;!-- End List of Countries --&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+
+                      &lt;a class="u-unfold--country__link p-6" href="#"&gt;
+                        &lt;small class="d-block text-muted mb-1"&gt;More countries coming soon.&lt;/small&gt;
+                        &lt;small class="d-block"&gt;Signup to get notified &lt;span class="fa fa-arrow-right u-unfold__icon-pointer"&gt;&lt;/span&gt;&lt;/small&gt;
+                      &lt;/a&gt;
+                      &lt;!-- End Signup Instantly --&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Content --&gt;
+                &lt;/div&gt;
+                &lt;!-- End Country --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <h3 class="h6">JS library and initialization:</h3>
+          <pre>
+            <code class="language-html" data-lang="html">
+              &lt;!-- JS Implementing Plugins --&gt;
+              &lt;script src="assets/js/components/hs.unfold.js"&gt;&lt;/script&gt;
+
+              &lt;!-- JS Plugins Init. --&gt;
+              &lt;script&gt;
+                $(document).on('ready', function () {
+                  // initialization of unfold component
+                  $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+                });
+              &lt;/script&gt;
+            </code>
+          </pre>
+        </div>
+      </main>
+      <!-- ========== END MAIN ========== -->
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fa fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../documentation/assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../assets/js/hs.core.js"></script>
+  <script src="../assets/js/components/hs.header.js"></script>
+  <script src="../assets/js/components/hs.unfold.js"></script>
+  <script src="../assets/js/components/hs.go-to.js"></script>
+  <script src="../assets/js/components/hs.scroll-nav.js"></script>
+  <script src="../documentation/assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of unfold component
+      $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 768,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('#fd-sidebar-navigation__search-autocomplete');
+
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+        duration: 700
+      });
+    });
+  </script>
+</body>
+</html>

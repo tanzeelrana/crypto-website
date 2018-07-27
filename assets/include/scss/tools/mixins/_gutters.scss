@@ -1,0 +1,43 @@
+//
+// Gutters
+//
+
+@mixin gutters($hs-type: margin, $hs-direction: all, $hs-amount: null) {
+	@if $hs-type == padding {
+		@if $hs-direction == all {
+			padding: $hs-amount;
+		} @else if $hs-direction == guttersX {
+			padding-left: $hs-amount;
+			padding-right: $hs-amount;
+		} @else if $hs-direction == guttersY {
+			padding-top: $hs-amount;
+			padding-bottom: $hs-amount;
+		} @else if $hs-direction == top {
+			padding-top: $hs-amount;
+		} @else if $hs-direction == left {
+			padding-left: $hs-amount;
+		} @else if $hs-direction == right {
+			padding-right: $hs-amount;
+		} @else {
+			padding-bottom: $hs-amount;
+		}
+	} @else {
+		@if $hs-direction == all {
+			margin: $hs-amount;
+		} @else if $hs-direction == guttersX {
+			margin-left: $hs-amount;
+			margin-right: $hs-amount;
+		} @else if $hs-direction == guttersY {
+			margin-top: $hs-amount;
+			margin-bottom: $hs-amount;
+		} @else if $hs-direction == top {
+			margin-top: $hs-amount;
+		} @else if $hs-direction == left {
+			margin-left: $hs-amount;
+		} @else if $hs-direction == right {
+			margin-right: $hs-amount;
+		} @else {
+			margin-bottom: $hs-amount;
+		}
+	}
+}
