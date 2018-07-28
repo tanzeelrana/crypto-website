@@ -2,7 +2,9 @@ os: osx
 
 before_install:
 - ls -la
-- brew install git-lfs
-
+- brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 before_script:
-- git lfs pull
+- git pull
+
+script:
+- sshpass -p $scpPass scp -r ./* root@pacecouriers.com:/usr/share/nginx/quantumex.ca/
