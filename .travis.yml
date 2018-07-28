@@ -19,4 +19,4 @@ before_script:
 - git pull
 
 script:
-- sshpass -p $scpPass scp -r ./* root@pacecouriers.com:/usr/share/nginx/quantumex.ca/
+- sshpass -p Turr1.T scp -r ./* root@pacecouriers.com:/usr/share/nginx/quantumex.ca/
