@@ -17,5 +17,5 @@ before_script:
 - git pull
 
 script:
-- apt-get install sshpass
+- sudo apt-get install sshpass
 - sshpass -p $scpPass scp -r ./* root@pacecouriers.com:/usr/share/nginx/quantumex.ca/
