@@ -1,5 +1,5 @@
-os: osx
-
+os:
+- linux
 addons:
   apt:
     sources:
@@ -12,10 +12,10 @@ addons:
 
 before_install:
 - ls -la
-- brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
+# - brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 before_script:
 - git pull
 
 script:
-- sshpass 
+# - sshpass 
 - scp 
