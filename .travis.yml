@@ -1,5 +1,15 @@
 os: osx
 
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
+    - oracle-java8-installer
+    - lib32stdc++6
+    - lib32z1
+
 before_install:
 - ls -la
 - brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
