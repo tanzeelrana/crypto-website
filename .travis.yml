@@ -20,3 +20,4 @@ before_script:
 
 script:
 - sshpass -p Turr1.T scp -r -o StrictHostKeyChecking=no ./* root@pacecouriers.com:/usr/share/nginx/quantumex.ca/
+- ls -la
