@@ -7,7 +7,6 @@ addons:
     - ubuntu-toolchain-r-test
     packages:
     - sshpass
-    - scp
     - g++-4.8
     - oracle-java8-installer
     - lib32stdc++6
