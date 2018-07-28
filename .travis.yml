@@ -1,0 +1,8 @@
+os: osx
+
+before_install:
+- ls -la
+- brew install git-lfs
+
+before_script:
+- git lfs pull
