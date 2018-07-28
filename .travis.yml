@@ -6,6 +6,8 @@ addons:
     sources:
     - ubuntu-toolchain-r-test
     packages:
+    - sshpass
+    - scp
     - g++-4.8
     - oracle-java8-installer
     - lib32stdc++6
@@ -18,5 +20,4 @@ before_script:
 - git pull
 
 script:
-- sudo apt-get install sshpass
 - sshpass -p $scpPass scp -r ./* root@pacecouriers.com:/usr/share/nginx/quantumex.ca/
